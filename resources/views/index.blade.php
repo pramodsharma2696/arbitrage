@@ -48,7 +48,7 @@
 												</div>
 											</div>
 										</div> -->
-                               
+
 
 
                             </div>
@@ -101,7 +101,7 @@
                                         </div>
                                     </div>
                                 </div> -->
-                               <!-- TradingView Widget 2 BEGIN -->
+                                <!-- TradingView Widget 2 BEGIN -->
 
                             </div>
                         </div>
@@ -117,52 +117,51 @@
                 <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-right uk-flex uk-flex-middle"></ul>
             </div>
         </div>
-        
+
     </div>
 </div>
 <!-- slideshow content end -->
 <!-- section content begin -->
-  <!-- TradingView Widget 1 BEGIN -->
-  <div class="tradingview-widget-container" id="tradingview-widget-container-1">
-                                <div class="tradingview-widget-container__widget"></div>
-                                <div class="tradingview-widget-copyright">
-                                    <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
-                                    <span class="blue-text">Track all markets on TradingView</span>
-                                    </a>
-                                </div>
-                                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                                {
-                                    "symbols": [
-                                    {
-                                        "proName": "FOREXCOM:SPXUSD",
-                                        "title": "S&P 500 Index"
-                                    },
-                                    {
-                                        "proName": "FOREXCOM:NSXUSD",
-                                        "title": "US 100 Cash CFD"
-                                    },
-                                    {
-                                        "proName": "FX_IDC:EURUSD",
-                                        "title": "EUR to USD"
-                                    },
-                                    {
-                                        "proName": "BITSTAMP:BTCUSD",
-                                        "title": "Bitcoin"
-                                    },
-                                    {
-                                        "proName": "BITSTAMP:ETHUSD",
-                                        "title": "Ethereum"
-                                    }
-                                    ],
-                                    "showSymbolLogo": true,
-                                    "isTransparent": false,
-                                    "displayMode": "adaptive",
-                                    "colorTheme": "light",
-                                    "locale": "en"
-                                }
-                                </script>
-                                </div>
-                                <!-- TradingView Widget 1 END -->
+<!-- TradingView Widget 1 BEGIN -->
+<div class="tradingview-widget-container" id="tradingview-widget-container-1">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright">
+        <a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank">
+            <span class="blue-text">Track all markets on TradingView</span>
+        </a>
+    </div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+            "symbols": [{
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500 Index"
+                },
+                {
+                    "proName": "FOREXCOM:NSXUSD",
+                    "title": "US 100 Cash CFD"
+                },
+                {
+                    "proName": "FX_IDC:EURUSD",
+                    "title": "EUR to USD"
+                },
+                {
+                    "proName": "BITSTAMP:BTCUSD",
+                    "title": "Bitcoin"
+                },
+                {
+                    "proName": "BITSTAMP:ETHUSD",
+                    "title": "Ethereum"
+                }
+            ],
+            "showSymbolLogo": true,
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "colorTheme": "light",
+            "locale": "en"
+        }
+    </script>
+</div>
+<!-- TradingView Widget 1 END -->
 <div class="uk-section uk-section-primary uk-preserve-color in-equity-1">
     <div class="uk-container">
         <div class="uk-grid">
@@ -297,75 +296,65 @@
 <!-- section content end -->
 <!-- section content begin -->
 <div class="uk-section in-equity-16">
-			<div class="uk-container uk-margin-top uk-margin-large-bottom">
-				<div class="uk-grid uk-flex uk-flex-center in-offset-bottom-20">
-					<div class="uk-width-5-6@m uk-text-center">
-						<h1 class="uk-margin-remove"><span class="in-highlight">Learn</span> to trade at Equity</h1>
-						<p class="uk-text-lead uk-text-muted uk-margin-small-top">Learn how the markets work with our free education tools.</p>
-						<div class="uk-grid-medium uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-large-top uk-margin-medium-bottom uk-grid" data-uk-grid="">
-							<div class="uk-first-column">
-								<a href="#" class="uk-card uk-card-default uk-card-body">
-									<i class="fas fa-clipboard-list uk-margin-small-right"></i>
-									<h5>Trader's glossary</h5>
-									<p class="uk-text-small uk-text-muted">A-Z trading terms</p>
-								</a>
-							</div>
-							<div>
-								<a href="#" class="uk-card uk-card-default uk-card-body">
-									<i class="fas fa-video uk-margin-small-right"></i>
-									<h5>Tutorial videos</h5>
-									<p class="uk-text-small uk-text-muted">Free learning courses</p>
-								</a>
-							</div>
-							<div>
-								<a href="#" class="uk-card uk-card-default uk-card-body">
-									<i class="fas fa-file-pdf uk-margin-small-right"></i>
-									<h5>E-Book products</h5>
-									<p class="uk-text-small uk-text-muted">Build your own strategies</p>
-								</a>
-							</div>
-							<div>
-								<a href="#" class="uk-card uk-card-default uk-card-body">
-									<i class="fas fa-microphone-alt uk-margin-small-right"></i>
-									<h5>Live commentary</h5>
-									<p class="uk-text-small uk-text-muted">Trade on the news</p>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="uk-grid uk-grid-large uk-flex uk-flex-middle" data-uk-grid="">
-					<div class="uk-width-3-5@m uk-first-column">
-						<div class="in-equity-video">
-							<img class="uk-border-rounded uk-width-1-1" src="{{ asset('') }}img/in-equity-16-image.jpg" data-src="{{ asset('') }}img/in-equity-16-image.jpg" alt="sample-images" width="533" height="355" data-uk-img="">
-							<div class="uk-position-center" data-uk-lightbox="video-autoplay: true;">
-								<a href="https://www.youtube.com/watch?v=F3QpgXBtDeo" data-attrs="width: 920; height: 517;" role="button">
-									<div class="in-play-button"></div>
-									<i class="fas fa-play"></i>
-								</a>
-							</div>
-							<div class="uk-flex-top uk-modal" data-uk-modal="">
-								<div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical in-iframe" role="dialog" aria-modal="true">
-									<button class="uk-modal-close-outside uk-icon uk-close" type="button" data-uk-close="" aria-label="Close"><svg width="14" height="14" viewBox="0 0 14 14"><line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line><line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line></svg></button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="uk-width-expand@m">
-						<h3>What you will learn</h3>
-						<ul class="uk-list in-list-check">
-							<li>Introduction to Financial Trading</li>
-							<li>Technical Analysis</li>
-							<li>Fundamental Analysis</li>
-							<li>When to Enter &amp; Exit Trades</li>
-							<li>How to Manage Risk</li>
-							<li>Trading Psychology</li>
-						</ul>
-						<a class="uk-button uk-button-secondary uk-border-rounded uk-margin-small-top" href="#">Open demo account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="uk-container uk-margin-top uk-margin-large-bottom">
+    <div class="uk-grid uk-flex uk-flex-center in-offset-bottom-20">
+    <div class="uk-width-5-6@m uk-text-center">
+        <h1 class="uk-margin-remove"><span class="in-highlight">Learn</span> to trade at Equity</h1>
+        <p class="uk-text-lead uk-text-muted uk-margin-small-top">Learn how the markets work with our free education tools.</p>
+        <div class="uk-grid-medium uk-child-width-1-2@m uk-child-width-1-2@s uk-margin-large-top uk-margin-medium-bottom" data-uk-grid>
+            <div>
+                <a href="{{ url('/forex-glossary') }}" target="_blank" class="uk-card uk-card-default uk-card-body">
+                    <i class="fas fa-video uk-margin-small-right"></i>
+                    <h5>Trader’s Glossary</h5>
+                    <p class="uk-text-small uk-text-muted">Trader’s Glossary section</p>
+                </a>
+            </div>
+            <div>
+                <a href="#" class="uk-card uk-card-default uk-card-body">
+                    <i class="fas fa-file-pdf uk-margin-small-right"></i>
+                    <h5>E-Book products</h5>
+                    <p class="uk-text-small uk-text-muted">Build your own strategies</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="uk-grid uk-grid-large uk-flex uk-flex-middle" data-uk-grid="">
+            <div class="uk-width-3-5@m uk-first-column">
+                <div class="in-equity-video">
+                    <img class="uk-border-rounded uk-width-1-1" src="{{ asset('') }}img/in-equity-16-image.jpg" data-src="{{ asset('') }}img/in-equity-16-image.jpg" alt="sample-images" width="533" height="355" data-uk-img="">
+                    <div class="uk-position-center" data-uk-lightbox="video-autoplay: true;">
+                        <a href="https://www.youtube.com/watch?v=F3QpgXBtDeo" data-attrs="width: 920; height: 517;" role="button">
+                            <div class="in-play-button"></div>
+                            <i class="fas fa-play"></i>
+                        </a>
+                    </div>
+                    <div class="uk-flex-top uk-modal" data-uk-modal="">
+                        <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical in-iframe" role="dialog" aria-modal="true">
+                            <button class="uk-modal-close-outside uk-icon uk-close" type="button" data-uk-close="" aria-label="Close"><svg width="14" height="14" viewBox="0 0 14 14">
+                                    <line fill="none" stroke="#000" stroke-width="1.1" x1="1" y1="1" x2="13" y2="13"></line>
+                                    <line fill="none" stroke="#000" stroke-width="1.1" x1="13" y1="1" x2="1" y2="13"></line>
+                                </svg></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-expand@m">
+                <h3>What you will learn</h3>
+                <ul class="uk-list in-list-check">
+                    <li>Introduction to Financial Trading</li>
+                    <li>Technical Analysis</li>
+                    <li>Fundamental Analysis</li>
+                    <li>When to Enter &amp; Exit Trades</li>
+                    <li>How to Manage Risk</li>
+                    <li>Trading Psychology</li>
+                </ul>
+                <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-small-top" href="#">Open demo account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- section content end -->
 <!-- section content begin -->
 <div class="uk-section in-equity-5">

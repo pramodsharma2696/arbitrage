@@ -42,6 +42,10 @@ class HomeController extends Controller
     public function conditions(){
         return view('conditions');
     }
+    public function forexglossary(){
+        return view('forexglossary');
+    }
+
     public function login(){
         return view('login');
     }
