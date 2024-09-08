@@ -26,6 +26,7 @@ Route::controller(HomeController::class)->group(function(){
     Route::get('/account', 'account')->name('account');
     Route::get('/tools', 'tools')->name('tools');
     Route::get('/conditions', 'conditions')->name('conditions');
+    Route::get('/FAQ', 'FAQ')->name('FAQ');
 
     Route::get('/forex-glossary', 'forexglossary')->name('forexglossary');
     

@@ -45,6 +45,9 @@ class HomeController extends Controller
     public function forexglossary(){
         return view('forexglossary');
     }
+    public function FAQ(){
+        return view('FAQ');
+    }
 
     public function login(){
         return view('login');
