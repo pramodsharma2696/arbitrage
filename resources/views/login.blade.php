@@ -46,7 +46,7 @@
 		<div class="uk-section uk-section-secondary uk-light uk-padding-remove-vertical">
 			<div class="uk-container uk-container-expand">
 				<div class="uk-grid" data-uk-height-viewport="expand: true">
-					<div class="uk-width-3-5@m uk-background-cover uk-background-center-right uk-visible@m uk-box-shadow-xlarge" style="background-image: url(img/in-signin-image.jpg);">
+					<div class="uk-width-3-5@m uk-background-cover uk-background-center-right uk-visible@m uk-box-shadow-xlarge" style="background-image: url({{ asset('') }}img/in-signin-image.jpg);">
 						
 					</div>
 					<div class="uk-width-expand@m uk-flex uk-flex-middle">
@@ -54,7 +54,7 @@
 							<div class="uk-width-3-5@m">
 								<div class="uk-text-center in-padding-horizontal@s">
 									<a class="uk-logo" href="index-2.html">
-										<img src="img/in-lazy.gif" data-src="img/user/header-logo-Uw3Zp9.svg" alt="logo" width="146" height="40" data-uk-img>
+										<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/user/header-logo.svg" alt="logo" width="146" height="40" data-uk-img>
 									</a>
 									<p class="uk-text-lead uk-margin-small-top uk-margin-medium-bottom">Log into your account</p>
 									<!-- login form begin -->

@@ -5,7 +5,7 @@
 				<div class="uk-container" data-uk-navbar>
 					<div class="uk-navbar-left">
 						<a class="uk-navbar-item uk-logo" href="{{ url('') }}">
-							<img src="{{ asset('') }}img/user/header-logo-Uw3Zp9.svg" alt="logo" width="146" height="40">
+							<img src="{{ asset('') }}img/user/header-logo.svg" alt="logo" width="146" height="40">
 						</a>
 						<ul class="uk-navbar-nav uk-visible@m">
 							<li><a href="{{ url('') }}">Home</a></li>
