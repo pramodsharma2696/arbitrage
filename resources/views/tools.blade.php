@@ -23,7 +23,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6"><br><br>
                 <h1>Tools</h1>
-                <p style="line-height: 1.6;">Understanding the clients’ need of knowing the right trading tools & then identifying opportunities, Marvel offers all the solutions accordingly. Such a pattern helps manage the risk factor as they trade based on the market research.</p>
+                <p style="line-height: 1.6;">Understanding the clients’ need of knowing the right trading tools & then identifying opportunities, Arbitrage offers all the solutions accordingly. Such a pattern helps manage the risk factor as they trade based on the market research.</p>
                 <p style="line-height: 1.6;">Just the right tool can create a huge difference to a trading strategy.</p>
                 </div>
                 <div class="col-lg-6">
@@ -85,7 +85,7 @@
             <div class="row justify-content-center">
                  <div class="col-lg-5">
                     <h1 align="left">VPS</h1>   
-                    <p style="line-height: 1.6;">What other than connectivity can be an important factor. Marvel works in line with 4XSolutions that provides clients easy access to a VPS infrastructure. This process ensures a direct connection to our trading servers.</p>
+                    <p style="line-height: 1.6;">What other than connectivity can be an important factor. Arbitrage works in line with 4XSolutions that provides clients easy access to a VPS infrastructure. This process ensures a direct connection to our trading servers.</p>
                     <br>
                  <div class="list_add"><img src="{{ asset('') }}images/ico4.png"> Low Latency & Poly Connected</div>
                  <div class="list_add"><img src="{{ asset('') }}images/ico5.png"> Highly Protected & Secured</div>

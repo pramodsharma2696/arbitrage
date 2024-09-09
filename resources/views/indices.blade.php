@@ -68,13 +68,13 @@
         <div class="container">
             <div class="row justify-content-center">
                  <div class="col-lg-5">
-                    <h1 align="left">Why MARVEL</h1><br>
+                    <h1 align="left">Why Arbitrage</h1><br>
                     <img class="res" src="{{ asset('') }}images/2nd-Indices-1024x670.png">
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6">
                  <br><br><br><br>
-                 <div class="list_add"><img src="{{ asset('') }}images/ico4.png"> Regulated Broker</div>
+                 <!-- <div class="list_add"><img src="{{ asset('') }}images/ico4.png"> Regulated Broker</div> -->
                  <div class="list_add"><img src="{{ asset('') }}images/ico5.png"> Multilingual Support</div>
                  <div class="list_add"><img src="{{ asset('') }}images/ico6.png"> Optimum Client Service</div>
                  <div class="list_add"><img src="{{ asset('') }}images/ico7.png"> Experts in the Industry</div>
