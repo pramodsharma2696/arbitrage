@@ -439,12 +439,12 @@
                     <div class="uk-margin-top uk-flex uk-flex-middle">
                         <div class="uk-margin-small-right">
                             <a href="https://apps.apple.com/au/app/vt-markets-online-trading/id1372647263">
-                                <img src="http://arbitrage.test/forexdata/app_store_new.svg" alt="App Store" width="150" height="30">
+                                <img src="{{ asset('') }}img/in-app-store.svg" alt="App Store" width="150" height="30">
                             </a>
                         </div>
                         <div>
                             <a href="https://play.google.com/store/apps/details?id=cn.com.vtmarkets&amp;pli=1">
-                                <img src="http://arbitrage.test/forexdata/google_play_new.svg" alt="Google Play" width="150" height="30">
+                                <img src="{{ asset('') }}img/in-google-play.svg" alt="Google Play" width="150" height="30">
                             </a>
                         </div>
                     </div>
