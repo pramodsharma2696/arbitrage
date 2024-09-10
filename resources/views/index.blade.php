@@ -184,18 +184,51 @@
                 <h1 class="uk-margin-top">Improve your Trading with a Range of Exclusive Trading Tools</h1>
                 <p class="uk-text-lead uk-margin-medium-top">Harness the power of technology to make a quicker, smarter, and more precise decision on CFD currency pairs, stocks, commodities, and more.</p>
             </div>
-            <div class="uk-width-3-4@m uk-margin-medium-top">
-                <div class="home-bottom-arap">
-                    <div class="img-wrap">
-                        <img loading="lazy" class="animat animat_fadeInBottom start" src="{{ asset('') }}forexdata/home-row5-img1-2.webp?v=4" alt="" width="960" height="866">
-                    </div>
-                    
+        </div>
+        <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top" data-uk-grid>
+            <!-- Card 1: Premium Economic Calendar -->
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                    <img src="{{ asset('') }}forexdata/home-row5-icon1.svg" alt="Premium Economic Calendar" width="50" height="50" class="uk-margin-bottom">
+                    <h3 class="uk-card-title">Premium Economic Calendar</h3>
+                    <p>Start trading news like the pros with our advanced economic calendar.</p>
+                    <a href="/professional-economic-calendar/" class="uk-button uk-button-text">Find out more &gt;</a>
                 </div>
             </div>
-            
+
+            <!-- Card 2: Technical Views -->
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                    <img src="{{ asset('') }}forexdata/home-row5-icon2.svg" alt="Technical Views" width="50" height="50" class="uk-margin-bottom">
+                    <h3 class="uk-card-title">Technical Views</h3>
+                    <p>Access live trading setups based on pattern recognition and expert analysis.</p>
+                    <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a>
+                </div>
+            </div>
+
+            <!-- Card 3: Alpha EA -->
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                    <img src="{{ asset('') }}forexdata/home-row5-icon3.svg" alt="Alpha EA" width="50" height="50" class="uk-margin-bottom">
+                    <h3 class="uk-card-title">Alpha EA</h3>
+                    <p>Unlock live trading ideas with three EAs for your MT4 and MT5 platform.</p>
+                    <a href="/alpha-generation/" class="uk-button uk-button-text">Find out more &gt;</a>
+                </div>
+            </div>
+
+            <!-- Card 4: AI Market Buzz -->
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                    <img src="{{ asset('') }}forexdata/home-row5-icon4.svg" alt="AI Market Buzz" width="50" height="50" class="uk-margin-bottom">
+                    <h3 class="uk-card-title">AI Market Buzz</h3>
+                    <p>Gain live market moving insights of over 35,000 tradable assets.</p>
+                    <a href="/ai-market-buzz/" class="uk-button uk-button-text">Find out more &gt;</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 
 
 <!-- section content end -->
@@ -204,13 +237,13 @@
     <div class="uk-container uk-margin-large-bottom">
         <div class="uk-grid uk-flex uk-flex-middle">
             <div class="uk-width-expand@m">
-                <h1 class="uk-margin-small-bottom">Tight spreads and <span class="in-highlight">ultra-fast</span> execution</h1>
-                <h3 class="uk-margin-top uk-text-warning">Best market prices available so you can receive excellent conditions.</h3>
+                <h1 class="uk-margin-small-bottom">Live Forex Feeds and <span class="in-highlight">Real-time</span> Market Data</h1>
+                <h3 class="uk-margin-top uk-text-warning">Stay ahead with the most up-to-date Forex trading information.</h3>
                 <hr class="uk-margin-medium-top uk-margin-medium-bottom">
                 <ul class="uk-list in-list-check">
-                    <li>Negative balance protection</li>
-                    <li>Segregated and supervised client funds</li>
-                    <li>Instant deposit & fast withdrawal</li>
+                <li>Access live Forex feeds</li>
+                <li>Real-time updates on market conditions</li>
+                <li>Comprehensive data for informed trading decisions</li>
                 </ul>
             </div>
             <div class="uk-width-2xlarge uk-flex uk-flex-right uk-flex-center@s">
