@@ -1,11 +1,11 @@
 @extends('master')
 @section('contents')
 
-<script src="{{ asset('') }}forex/jquery-2.1.4.min.js"></script>
-<script src="{{ asset('') }}forex/angular/1.5.8/angular.min.js"></script>
-<script src="{{ asset('') }}forex/angular-sanitize.js"></script>
+<script src="{{ asset('') }}forexdata/jquery-2.1.4.min.js"></script>
+<script src="{{ asset('') }}forexdata/angular/1.5.8/angular.min.js"></script>
+<script src="{{ asset('') }}forexdata/angular-sanitize.js"></script>
 <link rel="stylesheet" href="{{ asset('') }}css/grossary.css">
-<link rel="stylesheet" href="{{ asset('') }}forex/all-main_38.css">
+<link rel="stylesheet" href="{{ asset('') }}forexdata/all-main_38.css">
 <script type="text/javascript">
     $(document).ready(function() {
         setTimeout(function() {
@@ -28,7 +28,7 @@
         });
     });
 </script>
-<script type="text/javascript" src="{{ asset('') }}forex/glossary_new_v2.js"></script>
+<script type="text/javascript" src="{{ asset('') }}forexdata/glossary_new_v2.js"></script>
 <!-- breadcrumb content begin -->
 <div class="uk-section uk-padding-remove-vertical in-equity-breadcrumb">
 		<div class="uk-container">
@@ -45,11 +45,11 @@
 <div class="page">
     <div class="block sections">
         <div class="content glossary">
-            <link rel="stylesheet" type="text/css" href="{{ asset('') }}forex/additional_page_header_v14.css" />
+            <link rel="stylesheet" type="text/css" href="{{ asset('') }}forexdata/additional_page_header_v14.css" />
 
             <div class="additional_page_header_aph">
 
-                <div class="mf_header" style="background: url({{ asset('') }}forex/forex_glossary_new.jpg)">
+                <div class="mf_header" style="background: url({{ asset('') }}forexdata/forex_glossary_new.jpg)">
                     <div class="mfh_darken"></div>
                     <div class="mfh_text">
                         <h1 class="mfh_title" style="
@@ -63,7 +63,7 @@
                 <div ng-app="Glossary" ng-controller="glossaryController">
                     <div class="input_search_group">
                         <div class="input_search_block">
-                            <img src="{{ asset('') }}forex/search.png" alt>
+                            <img src="{{ asset('') }}forexdata/search.png" alt>
                             <input type="text" id="search-by-word" placeholder="enter word..." ng-change="search('word')" ng-model="query" />
                             <div class="input_search_btn">
                                 Search
@@ -125,15 +125,15 @@
                         </div>
                         <div class="nothing_found" ng-if="pagedItems.length == 0">
                             <div>Sorry, no results were found for your search</div>
-                            <img src="{{ asset('') }}forex/404_img_2.gif" alt="icon">
+                            <img src="{{ asset('') }}forexdata/404_img_2.gif" alt="icon">
                         </div>
                     </div>
-                    <div id="loading" class="text-center"><img src="{{ asset('') }}forex/loader.gif" alt="loading"></div>
+                    <div id="loading" class="text-center"><img src="{{ asset('') }}forexdata/loader.gif" alt="loading"></div>
                 </div>
 
 
 
-                <script src="{{ asset('') }}forex/particles.min.js"></script>
+                <script src="{{ asset('') }}forexdata/particles.min.js"></script>
                 <div id="particles-js"></div>
                 <script>
                     document.addEventListener('DOMContentLoaded', function() {

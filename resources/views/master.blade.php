@@ -28,7 +28,7 @@
 	<!-- uikit -->
 	<script src="{{ asset('') }}js/vendors/uikit.min.js"></script>
 	<!-- favicon -->
-	<link rel="shortcut icon" href="{{ asset('') }}img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="{{ asset('') }}img/favicon.png">
 	<!-- touch icon -->
 	<link rel="apple-touch-icon-precomposed" href="{{ asset('') }}img/apple-touch-icon.png">
 	<title>Arbitrage</title>
@@ -43,6 +43,42 @@
 	</div>
 	<!-- page loader end -->
 	<!-- header begin -->
+	 <!-- TradingView Widget 1 BEGIN -->
+<div class="tradingview-widget-container" id="tradingview-widget-container-1">
+    <div class="tradingview-widget-container__widget"></div>
+    
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+        {
+            "symbols": [{
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500 Index"
+                },
+                {
+                    "proName": "FOREXCOM:NSXUSD",
+                    "title": "US 100 Cash CFD"
+                },
+                {
+                    "proName": "FX_IDC:EURUSD",
+                    "title": "EUR to USD"
+                },
+                {
+                    "proName": "BITSTAMP:BTCUSD",
+                    "title": "Bitcoin"
+                },
+                {
+                    "proName": "BITSTAMP:ETHUSD",
+                    "title": "Ethereum"
+                }
+            ],
+            "showSymbolLogo": true,
+            "isTransparent": false,
+            "displayMode": "adaptive",
+            "colorTheme": "light",
+            "locale": "en"
+        }
+    </script>
+</div>
+<!-- TradingView Widget 1 END -->
 	@include('body.header')
 	<!-- header end -->
 	<main>

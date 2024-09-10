@@ -23752,6 +23752,10 @@ footer .uk-link-text li a:hover {
   color: #e89903;
   text-decoration: none;
 }
+footer .uk-link-text li a {
+  color: #999999;
+  text-decoration: none;
+}
 footer .social-media-list {
   display: flex;
   flex-direction: column;
@@ -23840,8 +23844,12 @@ footer .uk-text-small {
 }
 .in-equity-1 .uk-card-default {
   background: rgba(255, 255, 255, 0.2);
+  background: rgb(37 37 39);
+  color: #9f9f9f;
 }
-
+.in-equity-1 .uk-card-default h5{
+  color: #fff;
+}
 .in-equity-2 .in-feature-box a {
   color: #707070;
   transition: all ease 600ms;
