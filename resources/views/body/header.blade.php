@@ -67,7 +67,7 @@
 							<!-- <li><a href="education.html">Education</a> -->
 							</li>
 							<li><a href="{{ url('contact-us') }}">Contact</a></li>
-							<li><a href="{{ url('FAQ') }}">FQA</a></li>
+							<li><a href="{{ url('FAQ') }}">FAQ</a></li>
 						</ul>
 					</div>
 					<div class="uk-navbar-right">

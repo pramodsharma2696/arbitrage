@@ -98,7 +98,7 @@
                                 <li><a href="{{ url('about-us') }}#our_brand">Our Brand Values</a></li>
                                 <li><a href="{{ url('about-us') }}#3step">3 Step Process</a></li>
                                 <li><a href="{{ url('contact-us') }}#3step">Contact</a></li>
-                                <li><a href="{{ url('FAQ') }}">FQA</a></li>
+                                <li><a href="{{ url('FAQ') }}">FAQ</a></li>
                             </ul>
                         </div>
                     </div>
