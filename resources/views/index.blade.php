@@ -192,7 +192,7 @@
                     <img src="{{ asset('') }}forexdata/home-row5-icon1.svg" alt="Premium Economic Calendar" width="50" height="50" class="uk-margin-bottom">
                     <h3 class="uk-card-title">Premium Economic Calendar</h3>
                     <p>Start trading news like the pros with our advanced economic calendar.</p>
-                    <a href="/professional-economic-calendar/" class="uk-button uk-button-text">Find out more &gt;</a>
+                    <!-- <a href="/professional-economic-calendar/" class="uk-button uk-button-text">Find out more &gt;</a> -->
                 </div>
             </div>
 
@@ -202,7 +202,7 @@
                     <img src="{{ asset('') }}forexdata/home-row5-icon2.svg" alt="Technical Views" width="50" height="50" class="uk-margin-bottom">
                     <h3 class="uk-card-title">Technical Views</h3>
                     <p>Access live trading setups based on pattern recognition and expert analysis.</p>
-                    <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a>
+                    <!-- <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a> -->
                 </div>
             </div>
 
@@ -212,7 +212,7 @@
                     <img src="{{ asset('') }}forexdata/home-row5-icon3.svg" alt="Alpha EA" width="50" height="50" class="uk-margin-bottom">
                     <h3 class="uk-card-title">Alpha EA</h3>
                     <p>Unlock live trading ideas with three EAs for your MT4 and MT5 platform.</p>
-                    <a href="/alpha-generation/" class="uk-button uk-button-text">Find out more &gt;</a>
+                    <!-- <a href="/alpha-generation/" class="uk-button uk-button-text">Find out more &gt;</a> -->
                 </div>
             </div>
 
@@ -222,7 +222,7 @@
                     <img src="{{ asset('') }}forexdata/home-row5-icon4.svg" alt="AI Market Buzz" width="50" height="50" class="uk-margin-bottom">
                     <h3 class="uk-card-title">AI Market Buzz</h3>
                     <p>Gain live market moving insights of over 35,000 tradable assets.</p>
-                    <a href="/ai-market-buzz/" class="uk-button uk-button-text">Find out more &gt;</a>
+                    <!-- <a href="/ai-market-buzz/" class="uk-button uk-button-text">Find out more &gt;</a> -->
                 </div>
             </div>
         </div>
@@ -332,7 +332,7 @@
 </div>
 <!-- section content end -->
 <!-- section content begin -->
-<div class="uk-section in-equity-5">
+<!-- <div class="uk-section in-equity-5">
     <div class="uk-container uk-margin-remove-bottom">
         <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-2@s" data-uk-grid>
             <div>
@@ -373,7 +373,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- section content end -->
 <!-- section content begin -->
 <!-- <div class="uk-section uk-section-primary uk-preserve-color in-equity-6 uk-background-contain uk-background-center" data-src="{{ asset('') }}img/in-equity-decor-2.svg" data-uk-img>
