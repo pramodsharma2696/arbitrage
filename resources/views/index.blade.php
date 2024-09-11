@@ -10,8 +10,8 @@
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-2@s in-slide-text">
-                            <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
-                                leading trading platforms.</p>
+                            <!-- <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
+                                leading trading platforms.</p> -->
                             <h1 class="uk-heading-small" data-aos="zoom-in-down">The world's most <span class="in-highlight">powerful</span> trade platform.</h1>
                             <p class="uk-text-lead uk-visible@m">Get the most accurate market data, alerts, conversions, tools and more — all within the same app.</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s" data-uk-grid>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="in-slide-img">
-                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-equity-slide-1.png" alt="image-slide" width="652" height="746" data-uk-img>
+                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-liquid-slide-1.svg" alt="image-slide" width="652" height="746" data-uk-img>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-2@s in-slide-text">
-                            <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
-                                leading trading platforms.</p>
+                            <!-- <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
+                                leading trading platforms.</p> -->
                             <h1 class="uk-heading-small" data-aos="zoom-in-down">Trade with a trusted<span class="in-highlight">broker </span>.</h1>
                             <p class="uk-text-lead uk-visible@m">Bring your trading ventures go around the world, way beyond the space of your trading account.</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s" data-uk-grid>
@@ -107,7 +107,7 @@
                             </div>
                         </div>
                         <div class="in-slide-img">
-                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-equity-slide-2.png" alt="image-slide" width="652" height="746" data-uk-img>
+                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-liquid-slide-1.svg" alt="image-slide" width="652" height="746" data-uk-img>
                         </div>
                     </div>
                 </div>
@@ -152,6 +152,7 @@
                     <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
                 </div>
             </div>
+           
             <div>
                 <div class="uk-card uk-card-body uk-card-default uk-border-rounded">
                     <div class="uk-flex uk-flex-middle">
@@ -207,7 +208,14 @@
             </div>
 
             <!-- Card 3: Alpha EA -->
-            
+            <div>
+                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
+                    <img src="{{ asset('') }}forexdata/in-liquid-icon-3.svg" alt="Technical Views" width="50" height="50" class="uk-margin-bottom">
+                    <h3 class="uk-card-title">Financial strength</h3>
+                    <p>Financial strength refers to the robustness and stability of an individual, organization, or institution's financial position.</p>
+                    <!-- <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a> -->
+                </div>
+            </div>
 
             <!-- Card 4: AI Market Buzz -->
             <div>
@@ -221,7 +229,6 @@
         </div>
     </div>
 </div>
-
 
 
 <!-- section content end -->
@@ -408,7 +415,7 @@
             <!-- Left Side: Video (60% width) -->
             <div class="uk-width-3-5 uk-width-expand@m" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" style="margin: 0; padding: 0; height: 85vh; display: flex; justify-content: center; align-items: center;">
                 <div style="position: relative; width: 100%; height: 100%;">
-                    <img src="{{ asset('') }}img/trade-on-the-go.jpeg">
+                    <img src="{{ asset('') }}img/trade-on-the-go.jpeg"  style=" width: 100%; height: 100%;">
                 </div>
             </div>
 

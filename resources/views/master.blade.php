@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
-
-
-<!-- Mirrored from www.indonez.com/html-demo/equity/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 31 Aug 2024 22:32:01 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 	<!-- meta tags -->
 	<meta charset="utf-8">
