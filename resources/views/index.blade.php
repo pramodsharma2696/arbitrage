@@ -12,7 +12,7 @@
                         <div class="uk-width-1-2@s in-slide-text">
                             <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
                                 leading trading platforms.</p>
-                            <h1 class="uk-heading-small">The world's most <span class="in-highlight">powerful</span> trade platform.</h1>
+                            <h1 class="uk-heading-small" data-aos="zoom-in-down">The world's most <span class="in-highlight">powerful</span> trade platform.</h1>
                             <p class="uk-text-lead uk-visible@m">Get the most accurate market data, alerts, conversions, tools and more — all within the same app.</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s" data-uk-grid>
 
@@ -60,13 +60,13 @@
                     </div>
                 </div>
             </li>
-            <li class="uk-flex uk-flex-middle">
+            <li class="uk-flex uk-flex-middle ">
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-2@s in-slide-text">
                             <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
                                 leading trading platforms.</p>
-                            <h1 class="uk-heading-small">Trade with a trusted<span class="in-highlight">broker </span>.</h1>
+                            <h1 class="uk-heading-small" data-aos="zoom-in-down">Trade with a trusted<span class="in-highlight">broker </span>.</h1>
                             <p class="uk-text-lead uk-visible@m">Bring your trading ventures go around the world, way beyond the space of your trading account.</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s" data-uk-grid>
                                 <!-- <div>
@@ -128,10 +128,10 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1">
-                <h4 class="">Why choose Forex Trading With Arbitrage</h4>
+                <h4 data-aos="zoom-in-down">Why choose Forex Trading With Arbitrage</h4>
             </div>
         </div>
-        <div class="uk-grid-match uk-grid-medium uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-bottom" data-uk-grid>
+        <div class="uk-grid-match uk-grid-medium uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-bottom" data-aos="fade-up" data-aos-duration="3000" data-uk-grid>
             <div>
                 <div class="uk-card uk-card-body uk-card-default uk-border-rounded">
                     <div class="uk-flex uk-flex-middle">
@@ -181,11 +181,11 @@
     <div class="uk-container uk-margin-top">
         <div class="uk-grid uk-flex-center">
             <div class="uk-width-2xlarge@m uk-text-center">
-                <h1 class="uk-margin-top">Improve your Trading with a Range of Exclusive Trading Tools</h1>
+                <h1 class="uk-margin-top" data-aos="zoom-in-down">Improve your Trading with a Range of Exclusive Trading Tools</h1>
                 <p class="uk-text-lead uk-margin-medium-top">Harness the power of technology to make a quicker, smarter, and more precise decision on CFD currency pairs, stocks, commodities, and more.</p>
             </div>
         </div>
-        <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top" data-uk-grid>
+        <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top " data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine" data-uk-grid>
             <!-- Card 1: Premium Economic Calendar -->
             <div>
                 <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
@@ -207,14 +207,7 @@
             </div>
 
             <!-- Card 3: Alpha EA -->
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
-                    <img src="{{ asset('') }}forexdata/home-row5-icon3.svg" alt="Alpha EA" width="50" height="50" class="uk-margin-bottom">
-                    <h3 class="uk-card-title">Alpha EA</h3>
-                    <p>Unlock live trading ideas with three EAs for your MT4 and MT5 platform.</p>
-                    <!-- <a href="/alpha-generation/" class="uk-button uk-button-text">Find out more &gt;</a> -->
-                </div>
-            </div>
+            
 
             <!-- Card 4: AI Market Buzz -->
             <div>
@@ -237,7 +230,7 @@
     <div class="uk-container uk-margin-large-bottom">
         <div class="uk-grid uk-flex uk-flex-middle">
             <div class="uk-width-expand@m">
-                <h1 class="uk-margin-small-bottom">Live Forex Feeds and <span class="in-highlight">Real-time</span> Market Data</h1>
+                <h1 class="uk-margin-small-bottom" data-aos="zoom-in-down">Live Forex Feeds and <span class="in-highlight">Real-time</span> Market Data</h1>
                 <h3 class="uk-margin-top uk-text-warning">Stay ahead with the most up-to-date Forex trading information.</h3>
                 <hr class="uk-margin-medium-top uk-margin-medium-bottom">
                 <ul class="uk-list in-list-check">
@@ -258,7 +251,7 @@
                      
                             </div>
 						</div> -->
-                <div class="tradingview-widget-container ml-auto mr-auto" style="width: 100%; height: 400px;">
+                <div class="tradingview-widget-container ml-auto mr-auto" style="width: 100%; height: 400px;"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <iframe scrolling="no" allowtransparency="true" frameborder="0" src="https://www.tradingview-widget.com/embed-widget/forex-cross-rates/?locale=in#%7B%22width%22%3A%22100%25%22%2C%22height%22%3A400%2C%22currencies%22%3A%5B%22EUR%22%2C%22USD%22%2C%22JPY%22%2C%22GBP%22%2C%22CHF%22%2C%22AUD%22%2C%22CAD%22%2C%22NZD%22%2C%22CNY%22%5D%2C%22isTransparent%22%3Afalse%2C%22colorTheme%22%3A%22dark%22%2C%22utm_source%22%3A%22orbitglobalfx.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22forex-cross-rates%22%2C%22page-uri%22%3A%22orbitglobalfx.com%2F%22%7D" title="forex cross-rates TradingView widget" lang="en" style="user-select: none; box-sizing: border-box; display: block; height: calc(368px); width: 100%;"></iframe>
                     <div class="tradingview-widget-copyright scroll" id="yourdiv"><a href="https://in.tradingview.com/markets/currencies/forex-cross-rates/?utm_source=orbitglobalfx.com&amp;utm_medium=widget_new&amp;utm_campaign=forex-cross-rates" rel="noopener" target="_blank"><span class="blue-text">Exchange Rates</span></a> by TradingView</div>
 
@@ -274,7 +267,7 @@
     <div class="uk-grid uk-flex uk-flex-center in-offset-bottom-20">
     <div class="uk-width-5-6@m uk-text-center">
         <!-- <h1 class="uk-margin-remove"><span class="in-highlight">Learn</span> to trade at Equity</h1> -->
-        <h1 class="uk-margin-remove">Your gateway to proficient forex trading</h1>
+        <h1 class="uk-margin-remove" data-aos="zoom-in-down">Your gateway to proficient forex trading</h1>
         <p class="uk-text-lead uk-text-muted uk-margin-small-top">Learn how the markets work with our free education tools.</p>
         <div class="uk-grid-medium uk-child-width-1-2@m uk-child-width-1-2@s uk-margin-large-top uk-margin-medium-bottom" data-uk-grid>
             <div>
@@ -297,7 +290,7 @@
 
         <div class="uk-grid uk-grid-large uk-flex uk-flex-middle" data-uk-grid="">
             <div class="uk-width-3-5@m uk-first-column">
-                <div class="in-equity-video">
+                <div class="in-equity-video" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img class="uk-border-rounded uk-width-1-1" src="{{ asset('') }}img/in-equity-16-image.jpg" data-src="{{ asset('') }}img/in-equity-16-image.jpg" alt="sample-images" width="533" height="355" data-uk-img="">
                     <div class="uk-position-center" data-uk-lightbox="video-autoplay: true;">
                         <a href="https://www.youtube.com/watch?v=F3QpgXBtDeo" data-attrs="width: 920; height: 517;" role="button">
@@ -413,13 +406,9 @@
     <div class="uk-container-expand uk-margin-remove">
         <div class="uk-grid-collapse uk-flex-middle" data-uk-grid>
             <!-- Left Side: Video (60% width) -->
-            <div class="uk-width-3-5 uk-width-expand@m" style="margin: 0; padding: 0; height: 85vh; display: flex; justify-content: center; align-items: center;">
+            <div class="uk-width-3-5 uk-width-expand@m" data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine" style="margin: 0; padding: 0; height: 85vh; display: flex; justify-content: center; align-items: center;">
                 <div style="position: relative; width: 100%; height: 100%;">
-                    <video style="position: absolute; top:47%; left: 50%; transform: translate(-50%, -50%); min-width: 100%; min-height: 100%; object-fit: cover;" loop muted playsinline autoplay>
-                        <source src="{{ asset('forexdata/app_splash_page_greybg_nufc_white.mp4?v=1725960844') }}" type="video/mp4">
-                        <source src="{{ asset('forexdata/app_splash_page_greybg_nufc_white.ogv?v=1725960844') }}" type="video/ogv">
-                        <source src="{{ asset('forexdata/app_splash_page_greybg_nufc_white.webm?v=1725960844') }}" type="video/webm">
-                    </video>
+                    <img src="{{ asset('') }}img/trade-on-the-go.jpeg">
                 </div>
             </div>
 

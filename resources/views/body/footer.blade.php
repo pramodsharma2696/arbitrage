@@ -44,10 +44,11 @@
                         <div style="padding: 30px;">
                             <img src="{{ asset('') }}img/user/header-logo.svg" alt="logo" width="146" height="40">
                             <p class="uk-margin-small-top">
-                                Arbitrage Prime Limited mission is to create the best trading experience for retail and institutional clients alike, allowing traders to focus more on their trading. Built by traders for traders, IC Markets Global is dedicated to offering superior spreads, execution, and service.
+                                Arbitrage Prime Limited mission is to create the best trading experience for retail and institutional clients alike, allowing traders to focus more on their trading. 
+                                Built by traders for traders, Arbitrage Prime Limited is dedicated to offering superior spreads, execution, and service.
                             </p>
                             <!-- Social Media Icons -->
-                            <ul class="social" style="list-style: none; padding: 0; margin: 20px 0;">
+                            <ul class="social" style="list-style: none; padding: 0; margin: 20px 0;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                                 <li style="display: inline; margin-right: 10px;">
                                     <a id="footer_logo_facebook_1" class="footer-logo-social-icon facebook" href="https://www.facebook.com/" target="_blank">
                                         <img class="img-fluid" src="{{ asset('') }}forexdata/facebook.webp" alt="Facebook">
