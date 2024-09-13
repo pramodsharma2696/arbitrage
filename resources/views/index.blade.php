@@ -1,126 +1,71 @@
 @extends('master')
 @section('contents')
+<style>
+    .gold-border {
+    border: 2px solid gold; /* Adjust thickness and color as needed */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+.oval-card {
+    border-radius: 50px; /* Adjust the value as needed for a more or less pronounced oval shape */
+    overflow: hidden; /* Ensures content fits nicely within the shape */
+    padding: 20px; /* Optional: Adjust padding to suit the content layout */
+    text-align: center; /* Optional: Center-align text and elements inside */
+}
+</style>
 <!-- slideshow content begin -->
+<div class="uk-section uk-padding-remove-vertical in-slideshow-gradient" style="position: relative; overflow: hidden;">
+    <div class="uk-light in-slideshow" style="position: relative;">
+        <!-- Video as Background -->
+        <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; object-fit: cover; width: 100%; height: 100%;">
+            <source src="{{ asset('forexdata/hero-poster-mclaren-v2.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
 
-<div class="uk-section uk-padding-remove-vertical in-slideshow-gradient">
-    <div id="particles-js" class="uk-light in-slideshow uk-background-contain" data-src="{{ asset('') }}img/in-equity-decor-1.svg" data-uk-img data-uk-slideshow>
-        <hr>
-        <ul class="uk-slideshow-items">
-            <li class="uk-flex uk-flex-middle">
+        <!-- Slideshow Items -->
+        <ul class="uk-slideshow-items" style="position: relative; z-index: 1;">
+            <li class="uk-flex uk-flex-middle" style="height: 100vh;"> <!-- Ensures full height to align content correctly -->
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-2@s in-slide-text">
-                            <!-- <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
-                                leading trading platforms.</p> -->
                             <h1 class="uk-heading-small" data-aos="zoom-in-down">The world's most <span class="in-highlight">powerful</span> trade platform.</h1>
-                            <p class="uk-text-lead uk-visible@m">Get the most accurate market data, alerts, conversions, tools and more — all within the same app.</p>
+                            <p class="uk-text-lead uk-visible@m">Get the most accurate market data, alerts, conversions, tools, and more — all within the same app.</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s" data-uk-grid>
-
-                                <!-- <div>
-											<div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-												<div class="in-symbol-logo">
-													<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-tesla.svg" alt="ticker" width="28" height="28" data-uk-img>
-												</div>
-												<div class="in-price down">
-													<h6 class="uk-margin-remove">TSLA<span class="uk-text-small">-1.47%</span></h6>
-													<p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$113.06</p>
-												</div>
-											</div>
-										</div>
-										<div>
-											<div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-												<div class="in-symbol-logo">
-													<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-google.svg" alt="ticker" width="28" height="28" data-uk-img>
-												</div>
-												<div class="in-price up">
-													<h6 class="uk-margin-remove">GOOGL<span class="uk-text-small">1.32%</span></h6>
-													<p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$87.34</p>
-												</div>
-											</div>
-										</div>
-										<div class="uk-visible@m">
-											<div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-												<div class="in-symbol-logo">
-													<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-apple.svg" alt="ticker" width="28" height="28" data-uk-img>
-												</div>
-												<div class="in-price up">
-													<h6 class="uk-margin-remove">AAPL<span class="uk-text-small">3.68%</span></h6>
-													<p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$129.62</p>
-												</div>
-											</div>
-										</div> -->
-
-
-
+                                <!-- Add other slide content here -->
                             </div>
                         </div>
                         <div class="in-slide-img">
-                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-liquid-slide-1.svg" alt="image-slide" width="652" height="746" data-uk-img>
+                            <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/in-liquid-slide-1.svg') }}" alt="image-slide" width="652" height="746" data-uk-img>
                         </div>
                     </div>
                 </div>
             </li>
-            <li class="uk-flex uk-flex-middle ">
+            <li class="uk-flex uk-flex-middle" style="height: 100vh;">
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
                         <div class="uk-width-1-2@s in-slide-text">
-                            <!-- <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
-                                leading trading platforms.</p> -->
-                            <h1 class="uk-heading-small" data-aos="zoom-in-down">Trade with a trusted<span class="in-highlight">broker </span>.</h1>
+                            <h1 class="uk-heading-small" data-aos="zoom-in-down">Trade with a trusted <span class="in-highlight">broker</span>.</h1>
                             <p class="uk-text-lead uk-visible@m">Bring your trading ventures go around the world, way beyond the space of your trading account.</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s" data-uk-grid>
-                                <!-- <div>
-                                    <div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                        <div class="in-symbol-logo">
-                                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-mcdonalds.svg" alt="ticker" width="28" height="28" data-uk-img>
-                                        </div>
-                                        <div class="in-price down">
-                                            <h6 class="uk-margin-remove">MCD<span class="uk-text-small">-1.29%</span></h6>
-                                            <p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$269.47</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                        <div class="in-symbol-logo">
-                                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-amazon.svg" alt="ticker" width="28" height="28" data-uk-img>
-                                        </div>
-                                        <div class="in-price up">
-                                            <h6 class="uk-margin-remove">AMZN<span class="uk-text-small">3.56%</span></h6>
-                                            <p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$86.08</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="uk-visible@m">
-                                    <div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-                                        <div class="in-symbol-logo">
-                                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-microsoft.svg" alt="ticker" width="28" height="28" data-uk-img>
-                                        </div>
-                                        <div class="in-price down">
-                                            <h6 class="uk-margin-remove">MSFT<span class="uk-text-small">-1.18%</span></h6>
-                                            <p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$224.93</p>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- TradingView Widget 2 BEGIN -->
-
+                                <!-- Add other slide content here -->
                             </div>
                         </div>
                         <div class="in-slide-img">
-                            <img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-liquid-slide-1.svg" alt="image-slide" width="652" height="746" data-uk-img>
+                            <img src="{{ asset('img/in-lazy.gif') }}" data-src="{{ asset('img/in-liquid-slide-1.svg') }}" alt="image-slide" width="652" height="746" data-uk-img>
                         </div>
                     </div>
                 </div>
             </li>
         </ul>
+
+        <!-- Slideshow Navigation -->
         <div class="uk-container">
             <div class="uk-position-relative" data-uk-grid>
                 <ul class="uk-slideshow-nav uk-dotnav uk-position-bottom-right uk-flex uk-flex-middle"></ul>
             </div>
         </div>
-
     </div>
 </div>
+
 <!-- slideshow content end -->
 <!-- section content begin -->
 
@@ -186,47 +131,48 @@
                 <p class="uk-text-lead uk-margin-medium-top">Harness the power of technology to make a quicker, smarter, and more precise decision on CFD currency pairs, stocks, commodities, and more.</p>
             </div>
         </div>
-        <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top " data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine" data-uk-grid>
-            <!-- Card 1: Premium Economic Calendar -->
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
-                    <img src="{{ asset('') }}forexdata/home-row5-icon1.svg" alt="Premium Economic Calendar" width="50" height="50" class="uk-margin-bottom">
-                    <h3 class="uk-card-title">Premium Economic Calendar</h3>
-                    <p>Start trading news like the pros with our advanced economic calendar.</p>
-                    <!-- <a href="/professional-economic-calendar/" class="uk-button uk-button-text">Find out more &gt;</a> -->
-                </div>
-            </div>
-
-            <!-- Card 2: Technical Views -->
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
-                    <img src="{{ asset('') }}forexdata/home-row5-icon2.svg" alt="Technical Views" width="50" height="50" class="uk-margin-bottom">
-                    <h3 class="uk-card-title">Technical Views</h3>
-                    <p>Access live trading setups based on pattern recognition and expert analysis.</p>
-                    <!-- <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a> -->
-                </div>
-            </div>
-
-            <!-- Card 3: Alpha EA -->
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
-                    <img src="{{ asset('') }}forexdata/in-liquid-icon-3.svg" alt="Technical Views" width="50" height="50" class="uk-margin-bottom">
-                    <h3 class="uk-card-title">Financial strength</h3>
-                    <p>Financial strength refers to the robustness and stability of an individual, organization, or institution's financial position.</p>
-                    <!-- <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a> -->
-                </div>
-            </div>
-
-            <!-- Card 4: AI Market Buzz -->
-            <div>
-                <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center">
-                    <img src="{{ asset('') }}forexdata/home-row5-icon4.svg" alt="AI Market Buzz" width="50" height="50" class="uk-margin-bottom">
-                    <h3 class="uk-card-title">AI Market Buzz</h3>
-                    <p>Gain live market moving insights of over 35,000 tradable assets.</p>
-                    <!-- <a href="/ai-market-buzz/" class="uk-button uk-button-text">Find out more &gt;</a> -->
-                </div>
-            </div>
+        <div class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top" data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine" data-uk-grid>
+    <!-- Card 1: Premium Economic Calendar -->
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center gold-border">
+            <img src="{{ asset('') }}forexdata/home-row5-icon1.svg" alt="Premium Economic Calendar" width="50" height="50" class="uk-margin-bottom">
+            <h3 class="uk-card-title">Premium Economic Calendar</h3>
+            <p>Start trading news like the pros with our advanced economic calendar.</p>
+            <!-- <a href="/professional-economic-calendar/" class="uk-button uk-button-text">Find out more &gt;</a> -->
         </div>
+    </div>
+
+    <!-- Card 2: Technical Views -->
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center gold-border">
+            <img src="{{ asset('') }}forexdata/home-row5-icon2.svg" alt="Technical Views" width="50" height="50" class="uk-margin-bottom">
+            <h3 class="uk-card-title">Technical Views</h3>
+            <p>Access live trading setups based on pattern recognition and expert analysis.</p>
+            <!-- <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a> -->
+        </div>
+    </div>
+
+    <!-- Card 3: Financial Strength -->
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center gold-border">
+            <img src="{{ asset('') }}forexdata/in-liquid-icon-3.svg" alt="Financial Strength" width="50" height="50" class="uk-margin-bottom">
+            <h3 class="uk-card-title">Financial Strength</h3>
+            <p>Financial strength refers to the robustness and stability of an individual, organization, or institution's financial position.</p>
+            <!-- <a href="/technical-views/" class="uk-button uk-button-text">Find out more &gt;</a> -->
+        </div>
+    </div>
+
+    <!-- Card 4: AI Market Buzz -->
+    <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body uk-text-center gold-border">
+            <img src="{{ asset('') }}forexdata/home-row5-icon4.svg" alt="AI Market Buzz" width="50" height="50" class="uk-margin-bottom">
+            <h3 class="uk-card-title">AI Market Buzz</h3>
+            <p>Gain live market moving insights of over 35,000 tradable assets.</p>
+            <!-- <a href="/ai-market-buzz/" class="uk-button uk-button-text">Find out more &gt;</a> -->
+        </div>
+    </div>
+</div>
+
     </div>
 </div>
 
@@ -276,7 +222,7 @@
         <!-- <h1 class="uk-margin-remove"><span class="in-highlight">Learn</span> to trade at Equity</h1> -->
         <h1 class="uk-margin-remove" data-aos="zoom-in-down">Your gateway to proficient forex trading</h1>
         <p class="uk-text-lead uk-text-muted uk-margin-small-top">Learn how the markets work with our free education tools.</p>
-        <div class="uk-grid-medium uk-child-width-1-2@m uk-child-width-1-2@s uk-margin-large-top uk-margin-medium-bottom" data-uk-grid>
+        <div class="uk-grid-medium uk-child-width-1-2@m uk-child-width-1-2@s uk-margin-large-top uk-margin-medium-bottom" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-uk-grid>
             <div>
                 <a href="{{ url('/forex-glossary') }}" target="_blank" class="uk-card uk-card-default uk-card-body">
                     <i class="fas fa-video uk-margin-small-right"></i>
@@ -325,7 +271,7 @@
                     <li>How to Manage Risk</li>
                     <li>Trading Psychology</li>
                 </ul>
-                <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-small-top" href="#">Open demo account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+                <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-small-top" data-aos="fade-up" data-aos-anchor-placement="center-bottom" href="#">Open demo account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
             </div>
         </div>
     </div>
