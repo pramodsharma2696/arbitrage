@@ -18,18 +18,17 @@
 			<div class="uk-container">
 				<div class="uk-grid uk-flex uk-flex-center in-contact-6">
 					<div class="uk-width-1-1">
-						<iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10600.5248164368!2d144.95966577016594!3d-37.81707816290683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sid!4v1645280096951!5m2!1sen!2sid">
-						</iframe>
+						<iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.1125680225396!2d-60.9582245242325!3d14.07052948983309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c406820f255a007%3A0x35b3ab7fdfe0620d!2sYorker%20Markets!5e0!3m2!1sen!2sin!4v1726477165341!5m2!1sen!2sin"></iframe>
 					</div>
 					<div class="uk-width-3-5@m">
 						<div class="uk-grid uk-child-width-1-3@m uk-margin-medium-top uk-text-center" data-uk-grid="">
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-map-marker-alt fa-sm uk-margin-small-right"></i>Address</h5>
-								<p class="uk-margin-small-top">Satrio Tower 16th, Jl. Dr Satrio Kuningan, Jakarta</p>
+								<p class="uk-margin-small-top">Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia</p>
 							</div>
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-envelope fa-sm uk-margin-small-right"></i>Email</h5>
-								<p class="uk-margin-small-top uk-margin-remove-bottom">hello@company.com</p>
+								<p class="uk-margin-small-top uk-margin-remove-bottom"><a href="mailto:support@arbitrageprime.com" style="color:#707070">support@arbitrageprime.com</a></p>
 								<p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-top">for public inquiries</p>
 							</div>
 							<div>

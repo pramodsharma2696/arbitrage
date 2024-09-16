@@ -45,7 +45,7 @@
                             <img src="{{ asset('') }}img/user/header-logo.svg" alt="logo" width="146" height="40">
                             <p class="uk-margin-small-top">
                                 Arbitrage Prime Limited mission is to create the best trading experience for retail and institutional clients alike, allowing traders to focus more on their trading. 
-                                Built by traders for traders, Arbitrage Prime Limited is dedicated to offering superior spreads, execution, and service.
+                                Built by traders for traders, Arbitrage Prime Limited is dedicated to offering superior spreads, execution, and service. 
                             </p>
                             <!-- Social Media Icons -->
                             <ul class="social" style="list-style: none; padding: 0; margin: 20px 0;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
@@ -105,8 +105,12 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="uk-width-1-1">
+                <p class="in-trading-risk">Email:  <a href="mailto:support@arbitrageprime.com" style="color: #fff">support@arbitrageprime.com</a></p>
+            </div>
             <hr class="uk-margin-large" style="border-color: #f8f9fa;">
-            <div style="padding: 20px 10px;">
+            <div>
                 <p>
                     <b>Risk statement:</b> An investment in derivatives may mean investors may lose an amount even greater than their original investment.
                     Anyone wishing to invest in any of the products mentioned in https://www.ArbitragePrimeLimited.com should seek their own financial or professional advice.
@@ -125,6 +129,10 @@
                     jurisdiction where such distribution or use would be contrary to local law or regulation.
                 </p>
             </div>
+            <hr class="uk-margin-small" style="border-color: #f8f9fa;">
+            <p class="in-trading-risk">Registerd Number:  2024-00526<br></p>
+            <p class="in-trading-risk">Address: Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia<br></p>
+            
             <hr class="uk-margin-large" style="border-color: #f8f9fa;">
             <div class="uk-container">
                 <div class="uk-grid uk-flex uk-flex-middle">
