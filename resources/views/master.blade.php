@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Arbitrage Prime Limited | Navigate the Global Markets Confidently">
 	<meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
-	<meta name="author" content="Arbitrage">
+	<meta name="author" content="Arbitrage Prime Limited">
 	<meta name="theme-color" content="#FCB42D">
 	<!-- preload assets -->
 	<link rel="preload" href="{{ asset('') }}fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
