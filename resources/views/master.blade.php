@@ -5,7 +5,7 @@
 	<!-- meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Arbitrage Prime | Navigate the Global Markets Confidently">
+	<meta name="description" content="Arbitrage Prime Limited | Navigate the Global Markets Confidently">
 	<meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
 	<meta name="author" content="Arbitrage">
 	<meta name="theme-color" content="#FCB42D">
