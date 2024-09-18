@@ -6,11 +6,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Arbitrage Prime Limited</title>
-	<meta name="description" content="Arbitrage1 Prime Limited | Navigate the Global Markets Confidently">
+	<meta name="description" content="Arbitrage Prime Limited | Navigate the Global Markets Confidently">
 	<meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
-	<meta name="author" content="Arbitrage2 Prime Limited">
-	<meta property="og:title" content="Arbitrage1 Prime Limited">
-	<meta property="og:description" content="Arbitrage1 Prime Limited | Navigate the Global Markets Confidently">
+	<meta name="author" content="Arbitrage Prime Limited">
+	<meta property="og:title" content="Arbitrage Prime Limited">
+	<meta property="og:description" content="Arbitrage Prime Limited | Navigate the Global Markets Confidently">
 	
 
 	<meta name="theme-color" content="#FCB42D">
