@@ -25,7 +25,7 @@
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-map-marker-alt fa-sm uk-margin-small-right"></i>Address</h5>
 								<p class="uk-margin-small-top">Address: Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia</p>
-								<p class="uk-margin-small-top">Physical Address: Parklane tower, 3209, Businessbay, Dubai</p>
+								<p class="uk-margin-small-top">Physical Address: Parklane tower, 3209, Businessbay, Dubai.</p>
 							</div>
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-envelope fa-sm uk-margin-small-right"></i>Email</h5>
