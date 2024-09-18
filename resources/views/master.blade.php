@@ -29,7 +29,7 @@
 	<link rel="shortcut icon" href="{{ asset('') }}img/favicon.png">
 	<!-- touch icon -->
 	<link rel="apple-touch-icon-precomposed" href="{{ asset('') }}img/apple-touch-icon.png">
-	<title>Arbitrage</title>
+	<title>Arbitrage Prime Limited</title>
 </head>
 
 <body>
