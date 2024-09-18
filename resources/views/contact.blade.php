@@ -24,7 +24,8 @@
 						<div class="uk-grid uk-child-width-1-3@m uk-margin-medium-top uk-text-center" data-uk-grid="">
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-map-marker-alt fa-sm uk-margin-small-right"></i>Address</h5>
-								<p class="uk-margin-small-top">Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia</p>
+								<p class="uk-margin-small-top">Address: Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia</p>
+								<p class="uk-margin-small-top">Physical Address: Parklane tower, 3209, Businessbay, Dubai</p>
 							</div>
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-envelope fa-sm uk-margin-small-right"></i>Email</h5>
@@ -34,6 +35,7 @@
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-phone-alt fa-sm uk-margin-small-right"></i>Call</h5>
 								<p class="uk-margin-small-top uk-margin-remove-bottom">(888)234-5686</p>
+								<p class="uk-margin-small-top uk-margin-remove-bottom">Landline :  045549891</p>
 								<p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-top">Mon - Fri, 9am - 5pm</p>
 							</div>
 						</div>
