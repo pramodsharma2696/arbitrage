@@ -5,9 +5,14 @@
 	<!-- meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Arbitrage3 Prime Limited</title>
 	<meta name="description" content="Arbitrage1 Prime Limited | Navigate the Global Markets Confidently">
 	<meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
 	<meta name="author" content="Arbitrage2 Prime Limited">
+	<meta property="og:title" content="Arbitrage1 Prime Limited">
+	<meta property="og:description" content="Arbitrage1 Prime Limited | Navigate the Global Markets Confidently">
+	
+
 	<meta name="theme-color" content="#FCB42D">
 	<!-- preload assets -->
 	<link rel="preload" href="{{ asset('') }}fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -29,7 +34,7 @@
 	<link rel="shortcut icon" href="{{ asset('') }}img/favicon.png">
 	<!-- touch icon -->
 	<link rel="apple-touch-icon-precomposed" href="{{ asset('') }}img/apple-touch-icon.png">
-	<title>Arbitrage3 Prime Limited</title>
+	
 </head>
 
 <body>
