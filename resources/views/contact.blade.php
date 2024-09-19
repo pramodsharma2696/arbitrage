@@ -34,7 +34,6 @@
 							</div>
 							<div>
 								<h5 class="uk-margin-remove-bottom"><i class="fas fa-phone-alt fa-sm uk-margin-small-right"></i>Call</h5>
-								<p class="uk-margin-small-top uk-margin-remove-bottom">(888)234-5686</p>
 								<p class="uk-margin-small-top uk-margin-remove-bottom">Landline :  045549891</p>
 								<p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-top">Mon - Fri, 9am - 5pm</p>
 							</div>
