@@ -112,23 +112,28 @@
             <hr class="uk-margin-large" style="border-color: #f8f9fa;">
             <div>
                 <p>
-                    <b>Risk statement:</b> An investment in derivatives may mean investors may lose an amount even greater than their original investment.
-                    Anyone wishing to invest in any of the products mentioned in https://www.ArbitragePrimeLimited.com should seek their own financial or professional advice.
-                    Trading of securities, forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk of losing part or all
-                    of your money. Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing
-                    to accept them in order to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some
-                    countries, before investing your money, make sure whether your country is allowing this or not.
-                    You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency
-                    or spot metals trade. Nothing in this site should be read or construed as constituting advice on the part of Arbitrage Prime Limited or any of its affiliates,
-                    directors, officers or employees.
+                    <b>Risk Disclaimer:</b> An investment in derivatives may mean investors may lose an amount even greater than their original investment. Anyone wishing to invest in any of the products mentioned in Arbitrage Prime Limited
+                     should seek their own financial or professional advice. Trading of securities, forex, stock market, commodities, options and futures may not be suitable for everyone and involves the risk 
+                    of losing part or all of your money. Trading in the financial markets has large potential rewards, but also large potential risk. You must be aware of the risks and be willing to accept them in order
+                     to invest in the markets. Don't invest and trade with money which you can't afford to lose. Forex Trading are not allowed in some countries, before investing your money, make sure whether
+                     your country is allowing this or not. <br><br>
+                     You are strongly advised to obtain independent financial, legal and tax advice before proceeding with any currency or spot metals trade.
+                     Nothing in this site should be read or construed as constituting advice on the part of Arbitrage Prime Limited or any of its affiliates, directors, officers or employees.
                 </p>
 
                 <p>
-                    <b>Restricted Regions:</b> Arbitrage Prime Limited Investment ltd does not provide services for citizens/residents of the United States, Cuba, Iraq,
-                    Myanmar, North Korea, Sudan. The services of Syntex capital investment ltd are not intended for distribution to, or use by, any person in any country or
-                    jurisdiction where such distribution or use would be contrary to local law or regulation.
+                    <b>Restricted Regions:</b> Arbitrage Prime Limited does not provide services for citizens/residents of the United States, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of Arbitrage Prime Limited are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.
                 </p>
+                <p>
+                    <b>OR</b>
+                </p>
+                <p>
+                    <i>Information on this site is not directed at residents in any country or jurisdiction where such distribution or use would be contrary to local law or regulation</i>
+                </p>
+
             </div>
+            
+            
             <hr class="uk-margin-small" style="border-color: #f8f9fa;">
             <p class="in-trading-risk">Registerd Number:  2024-00526<br></p>
             <p class="in-trading-risk">Address: Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia<br></p>
