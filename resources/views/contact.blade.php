@@ -28,7 +28,7 @@
 					<div class="uk-width-1-1">
 					
 
-						<iframe class="uk-width-1-1 uk-height-large uk-border-rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.1125680225396!2d-60.9582245242325!3d14.07052948983309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c406820f255a007%3A0x35b3ab7fdfe0620d!2s%20!5e0!3m2!1sen!2sin!4v1726477165341!5m2!1sen!2sin"></iframe>
+						<iframe class="uk-width-1-1 uk-height-large uk-border-rounded" style="display: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.1125680225396!2d-60.9582245242325!3d14.07052948983309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c406820f255a007%3A0x35b3ab7fdfe0620d!2s%20!5e0!3m2!1sen!2sin!4v1726477165341!5m2!1sen!2sin"></iframe>
 					</div>
 					<div class="uk-width-3-5@m">
 						<div class="uk-grid uk-child-width-1-3@m uk-margin-medium-top uk-text-center" data-uk-grid="">
