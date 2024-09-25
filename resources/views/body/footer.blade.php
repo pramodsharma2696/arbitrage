@@ -135,8 +135,7 @@
             
             
             <hr class="uk-margin-small" style="border-color: #f8f9fa;">
-            <p class="in-trading-risk">Registerd Number:  2024-00526<br></p>
-            <p class="in-trading-risk">Address: Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia<br></p>
+            <p class="in-trading-risk">Arbitrage Prime Ltd is incorporated under the laws of Saint Lucia with registration number 2024-00526. The registered address is Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia.<br></p>
             <p class="in-trading-risk">Physical Address: Parklane tower, 3209, Businessbay, Dubai.<br></p>
             
             <hr class="uk-margin-large" style="border-color: #f8f9fa;">
