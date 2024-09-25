@@ -65,7 +65,7 @@
                                     </a>
                                 </li>
                                 <li style="display: inline;">
-                                    <a id="footer_logo_linkedin_1" class="footer-logo-social-icon linkedin" href="https://www.linkedin.com/company/" target="_blank">
+                                    <a id="footer_logo_linkedin_1" class="footer-logo-social-icon linkedin" href="https://www.linkedin.com/" target="_blank">
                                         <img class="img-fluid" src="{{ asset('') }}forexdata/linkedin.webp" alt="LinkedIn">
                                     </a>
                                 </li>
@@ -143,7 +143,7 @@
             <div class="uk-container">
                 <div class="uk-grid uk-flex uk-flex-middle">
                     <div class="uk-width-2-3@m uk-text-small">
-                        <ul class="uk-subnav uk-subnav-divider uk-visible@s" data-uk-margin="">
+                        <ul class="uk-subnav uk-subnav-divider uk-visible@s" data-uk-margin="" style="display: none;">
                             <li><a href="#">Risk disclosure</a></li>
                             <li><a href="#">Privacy policy</a></li>
                             <li><a href="#">Return policy</a></li>

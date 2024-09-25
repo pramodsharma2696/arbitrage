@@ -434,12 +434,12 @@
                     <!-- App Download Buttons -->
                     <div class="uk-margin-top uk-flex uk-flex-middle">
                         <div class="uk-margin-small-right">
-                            <a href="https://apps.apple.com/au/app/vt-markets-online-trading/id1372647263">
+                            <a href="javascript:void(0);">
                                 <img src="{{ asset('') }}img/in-app-store.svg" alt="App Store" width="150" height="30">
                             </a>
                         </div>
                         <div>
-                            <a href="https://play.google.com/store/apps/details?id=cn.com.vtmarkets&amp;pli=1">
+                            <a href="javascript:void(0);">
                                 <img src="{{ asset('') }}img/in-google-play.svg" alt="Google Play" width="150" height="30">
                             </a>
                         </div>

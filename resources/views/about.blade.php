@@ -21,7 +21,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                 <h2>Smoothening the process of trading</h2>
-                <p>Arbitrage Prime Limited Prime Limited is a Dubai based & globally recognized FX & trading platform with an aim to empower people with trading power. Ensuring security, Arbitrage Prime Limited makes trading convenient & brings profitable results, all in time. Loyalty, transparency & consistency stand as the pillars of Arbitrage Prime Limited enabling a premium client service worldwide.</p>
+                <p>Arbitrage Prime Limited is a Dubai based & globally recognized FX & trading platform with an aim to empower people with trading power. Ensuring security, Arbitrage Prime Limited makes trading convenient & brings profitable results, all in time. Loyalty, transparency & consistency stand as the pillars of Arbitrage Prime Limited enabling a premium client service worldwide.</p>
                 <p>Carrying years of experience, Arbitrage Prime Limited sets a professional & easy-to-access process for each and all in the trading world. Keeping an open-minded approach, we strive to share our tried & tested tips to trade & educate people about the same. Thus, with Arbitrage Prime Limited, trading in the global financial market becomes stable.</p>
                 </div>
                 <div class="col-lg-6">
