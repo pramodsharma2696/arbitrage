@@ -15,7 +15,7 @@
     ul.social li a {
         width: 2.5rem;
         height: 2.5rem;
-        background: #777777;
+        /* background: #777777; */
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -23,7 +23,10 @@
         transition: all 0.2s ease-in-out;
     }
 
- 
+    img.footer-logo {
+        max-width:65px !important;
+    height: 65px !important;
+}
 
     ul.social li a:hover {
         background-color: rgb(24 24 24) /* Hover effect color */
@@ -49,17 +52,17 @@
                                
                                 <li style="display: inline; margin-right: 10px;">
                                     <a id="footer_logo_twitter_1" class="footer-logo-social-icon twitter" href="https://x.com/arbitrageprime" target="_blank">
-                                        <img class="img-fluid" src="{{ asset('') }}forexdata/icon/twitter.png" alt="Twitter">
+                                        <img class="img-fluid footer-logo" src="{{ asset('') }}forexdata/icon/twitter.png" alt="Twitter">
                                     </a>
                                 </li>
                                 <li style="display: inline; margin-right: 10px;">
                                     <a id="footer_logo_instagram_1" class="footer-logo-social-icon instagram" href="https://www.instagram.com/arbitrageprime/" target="_blank">
-                                        <img class="img-fluid" src="{{ asset('') }}forexdata/icon/instagram.png" alt="Instagram">
+                                        <img class="img-fluid footer-logo" src="{{ asset('') }}forexdata/icon/instagram.png" alt="Instagram">
                                     </a>
                                 </li>
                                 <li style="display: inline;">
                                     <a id="footer_logo_linkedin_1" class="footer-logo-social-icon youtube" href="https://www.youtube.com/@arbitrageprime" target="_blank">
-                                        <img class="img-fluid" src="{{ asset('') }}forexdata/icon/youtube.png" alt="Youtube">
+                                        <img class="img-fluid footer-logo" src="{{ asset('') }}forexdata/icon/youtube.png" alt="Youtube">
                                     </a>
                                 </li>
                             </ul>
