@@ -23,10 +23,7 @@
         transition: all 0.2s ease-in-out;
     }
 
-    ul.social li a img {
-        width: 1.2rem; /* Adjust size of the icons */
-        height: 1.2rem;
-    }
+ 
 
     ul.social li a:hover {
         background-color: rgb(24 24 24) /* Hover effect color */
@@ -49,24 +46,20 @@
                             </p>
                             <!-- Social Media Icons -->
                             <ul class="social" style="list-style: none; padding: 0; margin: 20px 0;" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                               
                                 <li style="display: inline; margin-right: 10px;">
-                                    <a id="footer_logo_facebook_1" class="footer-logo-social-icon facebook" href="https://www.facebook.com/" target="_blank">
-                                        <img class="img-fluid" src="{{ asset('') }}forexdata/facebook.webp" alt="Facebook">
+                                    <a id="footer_logo_twitter_1" class="footer-logo-social-icon twitter" href="https://x.com/arbitrageprime" target="_blank">
+                                        <img class="img-fluid" src="{{ asset('') }}forexdata/icon/twitter.png" alt="Twitter">
                                     </a>
                                 </li>
                                 <li style="display: inline; margin-right: 10px;">
-                                    <a id="footer_logo_twitter_1" class="footer-logo-social-icon twitter" href="https://twitter.com/" target="_blank">
-                                        <img class="img-fluid" src="{{ asset('') }}forexdata/twitter.webp" alt="Twitter">
-                                    </a>
-                                </li>
-                                <li style="display: inline; margin-right: 10px;">
-                                    <a id="footer_logo_instagram_1" class="footer-logo-social-icon instagram" href="https://www.instagram.com/" target="_blank">
-                                        <img class="img-fluid" src="{{ asset('') }}forexdata/instagram.webp" alt="Instagram">
+                                    <a id="footer_logo_instagram_1" class="footer-logo-social-icon instagram" href="https://www.instagram.com/arbitrageprime/" target="_blank">
+                                        <img class="img-fluid" src="{{ asset('') }}forexdata/icon/instagram.png" alt="Instagram">
                                     </a>
                                 </li>
                                 <li style="display: inline;">
-                                    <a id="footer_logo_linkedin_1" class="footer-logo-social-icon linkedin" href="https://www.linkedin.com/" target="_blank">
-                                        <img class="img-fluid" src="{{ asset('') }}forexdata/linkedin.webp" alt="LinkedIn">
+                                    <a id="footer_logo_linkedin_1" class="footer-logo-social-icon youtube" href="https://www.youtube.com/@arbitrageprime" target="_blank">
+                                        <img class="img-fluid" src="{{ asset('') }}forexdata/icon/youtube.png" alt="Youtube">
                                     </a>
                                 </li>
                             </ul>
