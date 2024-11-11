@@ -4849,7 +4849,7 @@ select.uk-form-width-xsmall {
 .uk-grid {
   display: flex;
   /* 1 */
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   /* 2 */
   margin: 0;
   padding: 0;
@@ -5904,7 +5904,8 @@ ul.uk-nav-sub {
  * Width modifier
  */
 .uk-navbar-dropdown-width-2:not(.uk-drop-stack) {
-  width: 400px;
+  width: 623px;
+  /* width: 400px; */
 }
 
 .uk-navbar-dropdown-width-3:not(.uk-drop-stack) {

@@ -27,6 +27,7 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="{{ asset('') }}css/style.css">
+	<link rel="stylesheet" href="{{ asset('') }}css/megamenu.css">
 	<!-- <link rel="stylesheet" href="{{ asset('') }}teccss/style.css"> -->
 	<!-- uikit -->
 	<script src="{{ asset('') }}js/vendors/uikit.min.js"></script>
@@ -96,6 +97,7 @@
 	</a>
 	<!-- to top end -->
 	<!-- javascript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script src="{{ asset('') }}js/vendors/tradingview-widget.min.js"></script>
 	<script src="{{ asset('') }}js/vendors/particles.min.js"></script>
 	<script src="{{ asset('') }}js/config-particles.js"></script>
@@ -105,5 +107,6 @@
 	<script>
   		AOS.init();
 	</script>
+
 </body>
 </html>

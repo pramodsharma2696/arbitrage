@@ -1,0 +1,21 @@
+/* Scrollable dropdown on mobile */
+@media (max-width: 640px) {
+    .scrollable-dropdown {
+        max-height: 300px; /* Adjust the height as necessary */
+        overflow-y: auto;
+    }
+
+    /* Optional scrollbar styling for a cleaner look */
+    .scrollable-dropdown::-webkit-scrollbar {
+        width: 6px;
+    }
+    .scrollable-dropdown::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 3px;
+    }
+}
+
+.uk-navbar-dropdown {
+    top: auto !important;
+    left: auto !important;
+}
