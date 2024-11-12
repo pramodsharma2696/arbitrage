@@ -29,10 +29,8 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6"><br><br>
-                <h1>Account Types</h1><br><br>
-                <p style="line-height: 1.6;">At Arbitrage Prime Limited, competitive pricing is the norm. You have the
-                    flexibility to trade CFDs with either an STP Account type, both of which offer substantial
-                    liquidity, state-of-the-art execution, and a comprehensive suite of platforms and tools.</p>
+                <h1>Flexible Accounts, Premium Experience</h1><br><br>
+                <p style="line-height: 1.6;">Our account types at Arbitrage Prime Limited offer unparalleled flexibility and a rich trading experience. Whether you’re entering the market for the first time or refining a seasoned strategy, our accounts are built to offer deep liquidity, rapid execution, and the sophisticated tools that make every trading moment worthwhile.</p>
             </div>
             <div class="col-lg-6">
                 <img class="res" src="{{ asset('') }}images/1st-4.png">
