@@ -30,19 +30,24 @@
     <div class="uk-container">
         <div class="uk-grid uk-flex uk-flex-center in-contact-6">
             <div class="uk-width-4-5@m"> <!-- Adjusted width for better centering -->
-                <div class="uk-grid uk-child-width-1-3@m uk-margin-medium-top uk-text-center" data-uk-grid="">
+                <div class="uk-grid uk-child-width-1-4@m uk-margin-medium-top uk-text-center" data-uk-grid="">
                     <div>
                         <h5 class="uk-margin-remove-bottom"><i class="fas fa-map-marker-alt fa-sm uk-margin-small-right"></i>Address</h5>
-                        <p class="uk-margin-small-top">Satrio Tower 16th, Jl. Dr Satrio Kuningan, Jakarta</p>
+                        <p class="uk-margin-small-top">Address: Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia</p>
+                       
+                    </div>
+                    <div>
+                        <h5 class="uk-margin-remove-bottom"><i class="fas fa-map-marker-alt fa-sm uk-margin-small-right"></i>Physical Address</h5>
+                        <p class="uk-margin-small-top">Physical Address: Parklane tower, 3209, Businessbay, Dubai.</p>
                     </div>
                     <div>
                         <h5 class="uk-margin-remove-bottom"><i class="fas fa-envelope fa-sm uk-margin-small-right"></i>Email</h5>
-                        <p class="uk-margin-small-top uk-margin-remove-bottom">hello@company.com</p>
+                        <p class="uk-margin-small-top uk-margin-remove-bottom"><a href="mailto:support@arbitrageprime.com" style="color:#707070">support@arbitrageprime.com</a></p>
                         <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-top">for public inquiries</p>
                     </div>
                     <div>
                         <h5 class="uk-margin-remove-bottom"><i class="fas fa-phone-alt fa-sm uk-margin-small-right"></i>Call</h5>
-                        <p class="uk-margin-small-top uk-margin-remove-bottom">(888)234-5686</p>
+                        <p class="uk-margin-small-top uk-margin-remove-bottom">Landline :  +971 - 045549891</p>
                         <p class="uk-text-small uk-text-muted uk-text-uppercase uk-margin-remove-top">Mon - Fri, 9am - 5pm</p>
                     </div>
                 </div>
