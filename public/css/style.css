@@ -30,7 +30,8 @@
  */
 html {
   /* 1 */
-  font-family: "Archivo", sans-serif;
+  /* font-family: "Poppins", sans-serif;; */
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.5;
@@ -256,9 +257,9 @@ h6, .uk-h6,
 .uk-heading-xlarge,
 .uk-heading-2xlarge {
   margin: 0 0 20px 0;
-  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;;
   font-weight: 700;
-  color: #333333;
+  color: #000000;
   text-transform: none;
 }
 
@@ -388,7 +389,7 @@ blockquote {
 }
 blockquote p:first-of-type::before {
   content: "“";
-  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;;
   font-size: 164px;
   font-style: normal;
   color: rgba(0, 0, 0, 0.06);
@@ -412,7 +413,7 @@ blockquote footer {
   margin-top: 10px;
   font-size: 0.875rem;
   line-height: 1.5;
-  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
@@ -5755,7 +5756,7 @@ ul.uk-nav-sub {
   min-height: 92px;
   /* 4 */
   font-size: 0.875rem;
-  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;;
   /* 5 */
   text-decoration: none;
 }
@@ -9073,7 +9074,7 @@ iframe[data-uk-cover] {
 .uk-logo {
   /* 1 */
   font-size: 1.5rem;
-  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;;
   color: #333333;
   /* 2 */
   text-decoration: none;
@@ -23548,7 +23549,8 @@ header .in-optional-nav .uk-button-text {
 
 .in-slideshow-gradient {
   background: rgb(38, 38, 40);
-  background: linear-gradient(0deg, rgb(38, 38, 40) 0%, rgb(24, 24, 24) 80%, rgb(24, 24, 24) 100%);
+  /* background: linear-gradient(0deg, rgb(38, 38, 40) 0%, rgb(24, 24, 24) 80%, rgb(24, 24, 24) 100%); */
+  background: #000000;
   margin-top: -92px;
 }
 
@@ -23845,7 +23847,8 @@ footer .uk-text-small {
 }
 .in-equity-1 .uk-card-default {
   background: rgba(255, 255, 255, 0.2);
-  background: rgb(37 37 39);
+  background: #000000;
+  /* background: rgb(37 37 39); */
   color: #9f9f9f;
 }
 .in-equity-1 .uk-card-default h5{
@@ -23938,14 +23941,14 @@ footer .uk-text-small {
 }
 .in-equity-4 .in-testimonial-2 blockquote {
   font-size: 24px;
-  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;;
   color: #2a2a2a;
   margin-top: 2px;
   margin-left: 57px;
 }
 .in-equity-4 .in-testimonial-2 blockquote p:first-of-type::before {
   content: "“";
-  font-family: "Archivo", sans-serif;
+  font-family: "Poppins", sans-serif;;
   font-size: 172px;
   font-style: italic;
   color: #2a2a2a;

@@ -2,7 +2,7 @@
 <header>
 	<div class="uk-section uk-padding-remove-vertical">
 		<nav class="uk-navbar-container uk-navbar-transparent"
-			data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" style="background: rgb(24, 24, 24);">
+			data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" style="background: #000000;">
 			<div class="uk-container" data-uk-navbar>
 				<div class="uk-navbar-left">
 					<a class="uk-navbar-item uk-logo" href="{{ url('') }}">
@@ -39,10 +39,10 @@
 									<div>
 										<ul class="uk-nav uk-navbar-dropdown-nav">
 											<li><a href="{{ url('account') }}"><b>Account Types</b></a></li>
-											<li><a href="{{ url('account') }}">Standard</a></li>
-											<li><a href="{{ url('account') }}">Joint Accounts</a></li>
-											<li><a href="{{ url('account') }}">Corporate Accounts</a></li>
-											<li><a href="{{ url('account') }}">Islamic</a></li>
+											<li><a href="{{ url('account#std_account') }}">Standard Account</a></li>
+											<li><a href="{{ url('account#prime_account') }}">Prime Accounts</a></li>
+											<!-- <li><a href="{{ url('account') }}">Corporate Accounts</a></li> -->
+											<!-- <li><a href="{{ url('account') }}">Islamic</a></li> -->
 											
 										</ul>
 									</div>
@@ -95,10 +95,10 @@
 				</div>
 				<div class="uk-navbar-right">
 					<div class="uk-navbar-item uk-visible@m in-optional-nav">
-						<a href="{{ url('login') }}" class="uk-button uk-button-text">Log in<i
+						<!-- <a href="{{ url('login') }}" class="uk-button uk-button-text">Log in<i
 								class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
 						<a href="#" class="uk-button uk-button-primary">Sign up<i
-								class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+								class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
 					</div>
 				</div>
 			</div>

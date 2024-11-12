@@ -34,7 +34,7 @@
 </style>
 
 
-<footer style="background-color:rgb(24, 24, 24); color: white; padding-top: 20px;">
+<footer style="background-color:#000000; color: #FFFFFF; padding-top: 20px;">
     <div class="uk-section uk-padding-remove">
         <div class="uk-container" style="padding: 0 10px;">
             <div class="uk-grid uk-grid-large">

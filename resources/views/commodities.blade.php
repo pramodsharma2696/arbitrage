@@ -34,31 +34,52 @@
 
 
     <section class="sec_add_w">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico1.png">
-                    <span>Highly Relevant</span>
-                    <p>Commodities being familiar with routine lives make it easy to understand.</p>
-                 </div>
+        
+        <div class="uk-section uk-preserve-color in-equity-1">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-bottom"
+                data-aos="fade-up" data-aos-duration="3000" data-uk-grid>
+                <!-- card 1 -->
+                <div>
+                    <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
+                        <div class="uk-flex">
+                            <img src="{{ asset('') }}images/ico1.png" alt="Login & Open Your Account" width="50"
+                                height="50" class="uk-margin-bottom">
+                        </div>
+                        <h5 class="uk-margin-remove">Highly Relevant</h5>
+                        <p>Commodities being familiar with routine lives make it easy to understand.
+                        </p>
+                        <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico2.png">
-                    <span>Global Effect</span>
-                    <p>The demand & supply of commodities is highly influenced by global events</p>
-                 </div>
+                <!-- card 2 -->
+                <div>
+                    <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
+                        <div class="uk-flex">
+                            <img src="{{ asset('') }}images/ico2.png" alt="Deposit your Funds" width="50" height="50"
+                                class="uk-margin-bottom">
+                        </div>
+                        <h5 class="uk-margin-remove">Global Effect</h5>
+                        <p>The demand & supply of commodities is highly influenced by global events.</p>
+                        <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico3.png">
-                    <span>Risk but Profit Market</span>
-                    <p>People who invest/speculate generally flock to commodities in uncertain times</p>
-                 </div>
+                <!-- card 3 -->
+                <div>
+                    <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
+                        <div class="uk-flex">
+                            <img src="{{ asset('') }}images/ico3.png" alt="Enjoy Trading" width="50" height="50"
+                                class="uk-margin-bottom">
+                        </div>
+                        <h5 class="uk-margin-remove">Risk but Profit Market</h5>
+                        <p>People who invest/speculate generally flock to commodities in uncertain times.</p>
+                        <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    </div>
                 </div>
+
             </div>
         </div>
+    </div>
     </section>
 
 
@@ -87,27 +108,51 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12"><h1 align="center">Get Started in 3 Simple Steps</h1><br><br></div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico8.png">
-                    <span>Login & Open Your Account</span>
-                    <p>Complete the formalities, register & verify your account.</p>
-                 </div>
+                <div class="uk-section uk-preserve-color in-equity-1">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-bottom"
+                data-aos="fade-up" data-aos-duration="3000" data-uk-grid>
+                <!-- card 1 -->
+                <div>
+                    <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
+                        <div class="uk-flex">
+                            <img src="{{ asset('') }}images/ico8.png" alt="Login & Open Your Account" width="50"
+                                height="50" class="uk-margin-bottom">
+                        </div>
+                        <h5 class="uk-margin-remove">Login & Open Your Account</h5>
+                        <p>Complete the formalities, register & verify your account.
+                        </p>
+                        <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico9.png">
-                    <span>Deposit your Funds</span>
-                    <p>Add the funds in your capacity, get ready for the final stage</p>
-                 </div>
+                <!-- card 2 -->
+                <div>
+                    <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
+                        <div class="uk-flex">
+                            <img src="{{ asset('') }}images/ico9.png" alt="Deposit your Funds" width="50" height="50"
+                                class="uk-margin-bottom">
+                        </div>
+                        <h5 class="uk-margin-remove">Deposit your Funds</h5>
+                        <p>Add the funds in your capacity, get ready for the final stage.</p>
+                        <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico10.png">
-                    <span>Enjoy Trading</span>
-                    <p>Reap the benefits & trade smart to enjoy profits</p>
-                 </div>
+                <!-- card 3 -->
+                <div>
+                    <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
+                        <div class="uk-flex">
+                            <img src="{{ asset('') }}images/ico10.png" alt="Enjoy Trading" width="50" height="50"
+                                class="uk-margin-bottom">
+                        </div>
+                        <h5 class="uk-margin-remove">Enjoy Trading</h5>
+                        <p>Reap the benefits & trade smart to enjoy profits.</p>
+                        <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    </div>
                 </div>
+
+            </div>
+        </div>
+    </div>
             </div>
         </div>
     </section>

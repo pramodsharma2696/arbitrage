@@ -20,6 +20,7 @@
 	<link rel="preload" href="{{ asset('') }}fonts/archivo-v18-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="{{ asset('') }}fonts/archivo-v18-latin-300.woff2" as="font" type="font/woff2" crossorigin>
 	<link rel="preload" href="{{ asset('') }}fonts/archivo-v18-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="preload" href="{{ asset('') }}css/style.css" as="style">
 	<link rel="preload" href="{{ asset('') }}js/vendors/uikit.min.js" as="script">
 	<link rel="preload" href="{{ asset('') }}js/utilities.min.js" as="script">
