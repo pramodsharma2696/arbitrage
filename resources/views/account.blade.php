@@ -3,13 +3,59 @@
 <style>
     @media (max-width: 640px) {
         .designs {
-            height: 423px !important;
+            height: auto !important; /* Adjust height for mobile */
             margin-top: 20px;
+            padding: 20px; /* Add padding for better spacing */
         }
 
+        /* Adjust the image to fit better on smaller screens */
+        .designs img {
+            width: 100px; /* Reduce the image size */
+            margin-bottom: 15px;
+        }
+
+        /* Center the text */
+        .designs span {
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        /* Adjust the list */
+        .uk-list {
+            padding-left: 55px !important; /* Adjust padding for the list on small screens */
+        }
+
+        /* Adjust font size for the list items */
+        .uk-list li {
+            font-size: 14px; /* Reduce font size */
+            margin-bottom: 10px; /* Add some space between items */
+        }
+
+        /* Adjust the button */
+        .uk-button {
+            width: 100%; /* Make the button full-width on mobile */
+            text-align: center;
+        }
+    }
+
+    /* General styling for all screen sizes */
+    .designs {
+        box-shadow: none;
+        padding: 20px;
+    }
+
+    /* Desktop styles for the account section */
+    @media (min-width: 641px) {
+        .designs img {
+            width: 130px; /* Image size for desktop */
+        }
     }
 </style>
+
 <link rel="stylesheet" href="{{ asset('') }}teccss/tec-style.css">
+
 <!-- breadcrumb content begin -->
 <div class="uk-section uk-padding-remove-vertical in-equity-breadcrumb">
     <div class="uk-container">
@@ -159,10 +205,6 @@
                     <a href="#" class="uk-button uk-button-primary">Sign up<i
                             class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                 </div>
-
-
-
-
 
             </div>
 
