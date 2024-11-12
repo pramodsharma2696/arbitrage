@@ -81,7 +81,7 @@
                     sophisticated tools that make every trading moment worthwhile.</p>
             </div>
             <div class="col-lg-6">
-                <img class="res" src="{{ asset('') }}images/1st-4.png">
+                <img class="res" src="{{ asset('') }}images/acc_desktop.png">
             </div>
         </div>
     </div>
