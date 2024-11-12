@@ -4850,7 +4850,7 @@ select.uk-form-width-xsmall {
 .uk-grid {
   display: flex;
   /* 1 */
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   /* 2 */
   margin: 0;
   padding: 0;
