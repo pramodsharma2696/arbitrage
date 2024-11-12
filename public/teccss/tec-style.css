@@ -350,7 +350,7 @@ section.sec_add_w {
 }
 .designs {
     width: 100%;
-    height: 320px;
+    /* height: 320px; */
     background: #fff;
     border-radius: 5px;
     padding: 30px 5px;

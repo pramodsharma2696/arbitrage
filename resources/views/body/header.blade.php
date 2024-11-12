@@ -2,11 +2,11 @@
 <header>
 	<div class="uk-section uk-padding-remove-vertical">
 		<nav class="uk-navbar-container uk-navbar-transparent"
-			data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" style="background: #000000;">
+		data-uk-sticky="animation: uk-animation-slide-top; top: 0; cls-active: uk-navbar-sticky" style="background: #000000;">
 			<div class="uk-container" data-uk-navbar>
 				<div class="uk-navbar-left">
 					<a class="uk-navbar-item uk-logo" href="{{ url('') }}">
-						<img src="{{ asset('') }}img/user/header-logo.svg" alt="logo" width="146" height="40">
+						<img src="{{ asset('') }}img/user/logo-darkmode.png" alt="logo" width="146" height="40">
 					</a>
 					<ul class="uk-navbar-nav uk-visible@m">
 						<li><a href="{{ url('') }}">Home</a></li>
@@ -40,7 +40,7 @@
 										<ul class="uk-nav uk-navbar-dropdown-nav">
 											<li><a href="{{ url('account') }}"><b>Account Types</b></a></li>
 											<li><a href="{{ url('account#std_account') }}">Standard Account</a></li>
-											<li><a href="{{ url('account#prime_account') }}">Prime Accounts</a></li>
+											<li><a href="{{ url('account#prime_account') }}">Prime Account</a></li>
 											<!-- <li><a href="{{ url('account') }}">Corporate Accounts</a></li> -->
 											<!-- <li><a href="{{ url('account') }}">Islamic</a></li> -->
 											

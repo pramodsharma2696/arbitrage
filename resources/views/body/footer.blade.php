@@ -42,7 +42,7 @@
                     <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-margin-remove-top" data-uk-grid="">
                         <!-- Logo and Mission Section -->
                         <div style="padding: 30px;">
-                            <img src="{{ asset('') }}img/user/header-logo.svg" alt="logo" width="146" height="40">
+                            <img src="{{ asset('') }}img/user/logo-darkmode.png" alt="logo" width="146" height="40">
                             <p class="uk-margin-small-top">
                                 Arbitrage Prime Limited mission is to create the best trading experience for retail and institutional clients alike, allowing traders to focus more on their trading. 
                                 Built by traders for traders, Arbitrage Prime Limited is dedicated to offering superior spreads, execution, and service. 
@@ -81,10 +81,12 @@
                         <div style="padding: 30px;">
                             <h5 style="color: white;">Accounts Type</h5>
                             <ul class="uk-list uk-link-text">
-                                <li><a href="{{ url('account') }}">Standard</a></li>
+                                <!-- <li><a href="{{ url('account') }}">Standard</a></li>
                                 <li><a href="{{ url('account') }}">Joint Accounts</a></li>
                                 <li><a href="{{ url('account') }}">Corporate Accounts</a></li>
-                                <li><a href="{{ url('account') }}">Islamic</a></li>
+                                <li><a href="{{ url('account') }}">Islamic</a></li> -->
+                                <li><a href="{{ url('account#std_account') }}">Standard Account</a></li>
+								<li><a href="{{ url('account#prime_account') }}">Prime Account</a></li>
                             </ul>
                         </div>
                         <!-- Company Section -->

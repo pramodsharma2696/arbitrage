@@ -1,14 +1,13 @@
 @extends('master')
 @section('contents')
 <style>
+    @media (max-width: 640px) {
+        .designs {
+            height: 423px !important;
+            margin-top: 20px;
+        }
 
-@media (max-width: 640px) {
-    .designs {
-        height: 423px !important;
-        margin-top:20px;
     }
-
-}
 </style>
 <link rel="stylesheet" href="{{ asset('') }}teccss/tec-style.css">
 <!-- breadcrumb content begin -->
@@ -30,7 +29,10 @@
         <div class="row justify-content-center">
             <div class="col-lg-6"><br><br>
                 <h1>Flexible Accounts, Premium Experience</h1><br><br>
-                <p style="line-height: 1.6;">Our account types at Arbitrage Prime Limited offer unparalleled flexibility and a rich trading experience. Whether you’re entering the market for the first time or refining a seasoned strategy, our accounts are built to offer deep liquidity, rapid execution, and the sophisticated tools that make every trading moment worthwhile.</p>
+                <p style="line-height: 1.6;">Our account types at Arbitrage Prime Limited offer unparalleled flexibility
+                    and a rich trading experience. Whether you’re entering the market for the first time or refining a
+                    seasoned strategy, our accounts are built to offer deep liquidity, rapid execution, and the
+                    sophisticated tools that make every trading moment worthwhile.</p>
             </div>
             <div class="col-lg-6">
                 <img class="res" src="{{ asset('') }}images/1st-4.png">
@@ -48,7 +50,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="designs" style="box-shadow:none">
-                    <img style="width:50px;" src="{{ asset('') }}acc/2.png">
+                    <img style="width:130px;" src="{{ asset('') }}acc/2.png">
                     <p style="text-align:center;">Perfect for traders seeking
                         versatility and flexibility, the
                         Standard Account offers a
@@ -65,30 +67,50 @@
             </div>
             <div class="col-lg-6">
 
-                <div class="designs" style="border-radius: 5%;border: 5px #000000;">
-
+                <div class="designs" style="border-radius: 5%;">
                     <span>Standard Account</span>
-                    <p>Metatrader 5 platform
-                        Leverage up to 500:1
-                        200+ currency pairs
-                        Major indices
-                        One click Trading
-                        All trading styles
-                        Expert advisors allowed
-                        Hedging allowed
-                    </p>
+                    <ul class="uk-list" style="padding-left: 155px;">
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Metatrader 5
+                            platform
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Leverage up to
+                            500:1
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> 200+ currency pairs
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Major indices
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> One-click Trading
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> All trading styles
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Expert advisors
+                            allowed
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Hedging allowed
+                        </li>
+                    </ul>
                     <a href="#" class="uk-button uk-button-primary">Sign up<i
                             class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                 </div>
+
             </div>
-            
+
         </div>
 
         <div class="row justify-content-center mt-3" id="prime_account">
 
             <div class="col-lg-6">
                 <div class="designs" style="box-shadow:none">
-                    <img style="width: 50px;" src="{{ asset('') }}acc/1.png">
+                    <img style="width:130px;" src="{{ asset('') }}acc/1.png">
                     <p style="text-align:center;">
                         The Prime Account provides
                         a refined trading environment
@@ -105,24 +127,43 @@
                 </div>
             </div>
             <div class="col-lg-6 mt-2">
-
-                <div class="designs" style="border-radius: 5%;border: 5px #000000;">
-
+                <div class="designs" style="border-radius: 5%;">
                     <span>Prime Account</span>
-                    <p>
-                        Metatrader 5 platform
-                        Leverage up to 200:1
-                        200+ currency pairs
-                        Major indices
-                        One click Trading
-                        All trading styles
-                        Expert advisors allowed
-                        Hedging allowed
-
-                    </p>
+                    <ul class="uk-list" style="padding-left: 155px;">
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Metatrader 5 platform
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Leverage up to 200:1
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> 200+ currency pairs
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Major indices
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> One-click Trading
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> All trading styles
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Expert advisors
+                            allowed
+                        </li>
+                        <li style="display: flex; align-items: center;">
+                            <i class="fa fa-check" style="margin-right: 10px; min-width: 20px;"></i> Hedging allowed
+                        </li>
+                    </ul>
                     <a href="#" class="uk-button uk-button-primary">Sign up<i
                             class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                 </div>
+
+
+
+
+
             </div>
 
         </div>

@@ -30,8 +30,9 @@
                 <p>Curated by experts, Arbitrage Prime offers a professional and accessible trading experience for
                     all levels. Our open approach enables us to share proven strategies and educate traders,
                     helping them navigate the global financial markets confidently.</p>
-                <p>Join Arbitrage Prime for a stable, empowering trading journey. (There should be a CTA button
-                    to sign up page)</p>
+                <p>Join Arbitrage Prime for a stable, empowering trading journey. </p>
+                <a href="#" class="uk-button uk-button-primary">Sign up<i
+                            class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
             </div>
             <div class="col-lg-6">
                 <img class="res" src="{{ asset('') }}images/new/5.jpeg">
