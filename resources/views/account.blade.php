@@ -96,7 +96,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="designs" style="box-shadow:none">
-                    <img style="width:130px;" src="{{ asset('') }}acc/2.png">
+                    <img style="width:215px;" src="{{ asset('') }}acc/2.png">
                     <p style="text-align:center;">Perfect for traders seeking
                         versatility and flexibility, the
                         Standard Account offers a
@@ -156,7 +156,7 @@
 
             <div class="col-lg-6">
                 <div class="designs" style="box-shadow:none">
-                    <img style="width:130px;" src="{{ asset('') }}acc/1.png">
+                    <img style="width:215px;" src="{{ asset('') }}acc/1.png">
                     <p style="text-align:center;">
                         The Prime Account provides
                         a refined trading environment
