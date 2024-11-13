@@ -33,7 +33,7 @@
 	<!-- uikit -->
 	<script src="{{ asset('') }}js/vendors/uikit.min.js"></script>
 	<!-- favicon -->
-	<link rel="shortcut icon" href="{{ asset('') }}img/favicon.png">
+	<link rel="shortcut icon" href="{{ asset('') }}img/user/favicon.png">
 	<!-- touch icon -->
 	<link rel="apple-touch-icon-precomposed" href="{{ asset('') }}img/apple-touch-icon.png">
 	
@@ -104,6 +104,11 @@
 	<script src="{{ asset('') }}js/config-particles.js"></script>
 	<script src="{{ asset('') }}js/utilities.min.js"></script>
 	<script src="{{ asset('') }}js/config-theme.js"></script>
+	<script src="{{ asset('') }}js/commodities.js"></script>
+	<script src="{{ asset('') }}js/indices.js"></script>
+	<script src="{{ asset('') }}js/equities.js"></script>
+	<script src="{{ asset('') }}js/forex.js"></script>
+	<script src="{{ asset('') }}js/cryptocurrencies.js"></script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
   		AOS.init();

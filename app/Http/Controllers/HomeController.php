@@ -52,4 +52,7 @@ class HomeController extends Controller
     public function login(){
         return view('login');
     }
+    public function cryptocurrencies(){
+        return view('cryptocurrencies');
+    }
 }

@@ -33,6 +33,7 @@
 											<li><a href="{{ url('equities') }}">Equities</a></li>
 											<li><a href="{{ url('indices') }}">Indices</a></li>
 											<li><a href="{{ url('commodities') }}">Commodities</a></li>
+											<li><a href="{{ url('cryptocurrencies') }}">Cryptocurrencies</a></li>
 											
 										</ul>
 									</div>

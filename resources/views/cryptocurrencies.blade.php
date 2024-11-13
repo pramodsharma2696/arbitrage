@@ -3,14 +3,12 @@
 <style>
     @media (max-width: 640px) {
         .m-top {
-            margin-top: 0px !important;
-        }
+        margin-top:0px !important;
     }
-
+    }
     .m-top {
-        margin-top: -130px;
+        margin-top:-130px;
     }
-
     .uk-card-radius {
         border-radius: 50%;
     }
@@ -65,26 +63,20 @@
 
     /* Keyframes for image breathing animation */
     @keyframes breathe-img {
-
-        0%,
-        100% {
+        0%, 100% {
             transform: scale(1);
         }
-
         50% {
             transform: scale(1.05);
         }
     }
-
-    /* Optional: Ensure grid items have a fixed height */
-    .grid-item {
-        height: 200px;
-        /* Adjust height as needed */
+     /* Optional: Ensure grid items have a fixed height */
+     .grid-item {
+        height: 200px; /* Adjust height as needed */
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
-        /* Ensures overflow content is hidden */
+        overflow: hidden; /* Ensures overflow content is hidden */
     }
 </style>
 <link rel="stylesheet" href="{{ asset('') }}teccss/tec-style.css">
@@ -94,7 +86,7 @@
         <div class="uk-grid">
             <div class="uk-width-1-1">
                 <ul class="uk-breadcrumb">
-                    <li><a href="#">Equities</a></li>
+                    <li><a href="#">Cryptocurrencies</a></li>
                 </ul>
             </div>
         </div>
@@ -106,47 +98,35 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6"><br><br>
-                <h1>Equities</h1>
-                <p style="line-height: 1.6;">Trade a diverse range of global equities on our platform, with
-access to top stocks from leading technology, financial, and
-consumer companies. Invest in major markets and diversify your
-portfolio with some of the world's most sought-after equities.</p>
-                <h6>Popular Equities:</h6>
-                <button type="button" class="uk-button uk-button-primary breathing" id="button-apple">Apple</button>
-                <button type="button" class="uk-button uk-button-primary breathing" id="button-meta">Meta</button> 
-                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-nike">Nike</button>
-                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-microsoft">Microsoft</button><br />
-                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-tesla">Tesla</button>
-                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-amazon">Amazon</button>
-                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-nvidia">Nvidia</button>
-                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-google">Google</button>
+                <h1>Cryptocurrencies</h1>
+                <p style="line-height: 1.6;">Explore the dynamic world of cryptocurrencies on our platform.
+Trade top digital assets with access to real-time markets.
+Diversify your portfolio with popular cryptocurrency CFDs and
+capture opportunities in this evolving asset class.</p>
+                <h6>Trade with Popular Cryptocurrencies:</h6>
+                <button type="button" class="uk-button uk-button-primary breathing" id="button-Tether">Tether</button>
+                <button type="button" class="uk-button uk-button-primary breathing" id="button-Cardano">Cardano</button> <br />
+                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-Ripple">Ripple</button>
+                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-Bitcoin">Bitcoin</button>
+                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-Ethereum">Ethereum</button>
             </div>
             <div class="col-lg-6">
-
-                <div class="uk-grid uk-child-width-1-3@m uk-grid-match" uk-grid>
+                
+            <div class="uk-grid uk-child-width-1-3@m uk-grid-match" uk-grid>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/3.png" alt="Image 1" id="image-meta" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/18.png" id="image-Tether" alt="Image 1" class="breathing-img">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/2.png" alt="Image 2" id="image-amazon" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/19.png" id="image-Cardano" alt="Image 2" class="breathing-img">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/1.png" alt="Image 3" id="image-tesla" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/20.png" id="image-Ripple" alt="Image 3" class="breathing-img">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/4.png" alt="Image 4" id="image-microsoft" class="breathing-img m-top">
+                        <img src="{{ asset('') }}images/symbol/21.png" id="image-Bitcoin" alt="Image 4" class="breathing-img m-top">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/5.png" alt="Image 5" id="image-google" class="breathing-img m-top">
-                    </div>
-                    <div>
-                        <img src="{{ asset('') }}images/symbol/6.png" alt="Image 6" id="image-apple" class="breathing-img m-top">
-                    </div>
-                    <div>
-                        <img src="{{ asset('') }}images/symbol/8.png" alt="Image 7" id="image-nvidia" class="breathing-img m-top">
-                    </div>
-                    <div>
-                        <img src="{{ asset('') }}images/symbol/7.png" alt="Image 8" id="image-nike" class="breathing-img m-top">
+                        <img src="{{ asset('') }}images/symbol/22.png" id="image-Ethereum" alt="Image 5" class="breathing-img m-top">
                     </div>
                 </div>
 
