@@ -1,66 +1,65 @@
 @extends('master')
 @section('contents')
 <!-- slideshow content begin -->
+<style>
+    .uk-section {
+    position: initial; /* This ensures that the content remains inside the section */
+    overflow: hidden; /* Hides any overflow if the video goes beyond container bounds */
+}
+    /* Style for the video background */
+    .background-video {
+    position: absolute; /* Keep it absolute, but make sure it's correctly positioned */
+    top: 0;
+    left: 0;
+    width: 100%; /* Make sure the video covers the container horizontally */
+    height: 100%; /* Make sure the video covers the container vertically */
+    object-fit: cover; /* Ensure the video maintains its aspect ratio while covering the container */
+    z-index: -1; /* Send the video behind other content */
+    pointer-events: none; /* Ensure the video doesn’t capture any mouse events */
+    }
 
-<div class="uk-section uk-padding-remove-vertical in-slideshow-gradient">
+    /* Overlay content on top of the video */
+    .content-overlay {
+        position: relative;
+        z-index: 1;
+        /* Keep content above the video */
+        color: #fff;
+        /* White text for better contrast on the video */
+    }
+
+    .in-slideshow-gradient {
+        position: relative;
+    z-index: 1; /* Keep content above the video */
+    color: #fff; /* White text for better contrast on the video */
+    }
+</style>
+<div class="uk-section uk-padding-remove-vertical">
+    <video autoplay muted loop playsinline class="background-video">
+        <source src="{{ asset('') }}video/bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <div id="particles-js" class="uk-light in-slideshow uk-background-contain"
         data-src="{{ asset('') }}img/in-equity-decor-1.svg" data-uk-img data-uk-slideshow>
-        <hr>
+       
         <ul class="uk-slideshow-items">
             <li class="uk-flex uk-flex-middle">
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                        <div class="uk-width-1-2@s in-slide-text">
-                            <!-- <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
-                                leading trading platforms.</p> -->
+                        <div class="uk-width-1-2@s in-slide-text" style="background:#000000a1;box-shadow:rgb(7 18 25) 0px 7px 29px 0px;border-radius:10px; padding:20px">
+
                             <h1 class="uk-heading-small" data-aos="zoom-in-down">Navigate the <span
-                                    class="in-highlight">Global markets</span> with a platform built for performance.
+                                    class="in-highlight">Global markets</span> with a platform built <span style="color:#DCBA62">for performance.</span>
                             </h1>
-                            <p class="uk-text-lead uk-visible@m">“Get the most accurate market data, alerts, conversions
+                            <p class="uk-text-lead uk-visible@m">Get the most accurate market data, alerts, conversions
                                 and tools - all within a platform that adapts to your trading needs.</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s"
                                 data-uk-grid>
-
-                                <!-- <div>
-											<div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-												<div class="in-symbol-logo">
-													<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-tesla.svg" alt="ticker" width="28" height="28" data-uk-img>
-												</div>
-												<div class="in-price down">
-													<h6 class="uk-margin-remove">TSLA<span class="uk-text-small">-1.47%</span></h6>
-													<p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$113.06</p>
-												</div>
-											</div>
-										</div>
-										<div>
-											<div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-												<div class="in-symbol-logo">
-													<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-google.svg" alt="ticker" width="28" height="28" data-uk-img>
-												</div>
-												<div class="in-price up">
-													<h6 class="uk-margin-remove">GOOGL<span class="uk-text-small">1.32%</span></h6>
-													<p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$87.34</p>
-												</div>
-											</div>
-										</div>
-										<div class="uk-visible@m">
-											<div class="uk-card uk-card-small uk-card-secondary uk-card-body uk-border-rounded uk-flex uk-flex-middle">
-												<div class="in-symbol-logo">
-													<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/in-symbol-apple.svg" alt="ticker" width="28" height="28" data-uk-img>
-												</div>
-												<div class="in-price up">
-													<h6 class="uk-margin-remove">AAPL<span class="uk-text-small">3.68%</span></h6>
-													<p class="uk-margin-remove"><span class="fas fa-arrow-circle-right fa-xs"></span>$129.62</p>
-												</div>
-											</div>
-										</div> -->
-
                             </div>
                         </div>
                         <div class="in-slide-img">
-                            <img src="{{ asset('') }}img/in-lazy.gif"
+                            <!-- <img src="{{ asset('') }}img/in-lazy.gif"
                                 data-src="{{ asset('') }}img/in-liquid-slide-1.svg" alt="image-slide" width="652"
-                                height="746" data-uk-img>
+                                height="746" data-uk-img> -->
                         </div>
                     </div>
                 </div>
@@ -68,11 +67,10 @@
             <li class="uk-flex uk-flex-middle ">
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                        <div class="uk-width-1-2@s in-slide-text">
+                        <div class="uk-width-1-2@s in-slide-text" style="background:#000000a1;box-shadow:rgb(7 18 25) 0px 7px 29px 0px;border-radius:10px; padding:20px">
                             <!-- <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
                                 leading trading platforms.</p> -->
-                            <h1 class="uk-heading-small" data-aos="zoom-in-down">Make Every Trade Count with <span
-                                    class="in-highlight">Arbitrage Prime </span>.</h1>
+                            <h1 class="uk-heading-small" data-aos="zoom-in-down">Make Every Trade Count with <span style="color:#DCBA62">Arbitrage Prime .</span></h1>
                             <p class="uk-text-lead uk-visible@m">Whether you are into Forex, Commodities, Stocks,
                                 Indices or Digital Assets, we’ve got you covered</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s"
@@ -115,9 +113,9 @@
                             </div>
                         </div>
                         <div class="in-slide-img">
-                            <img src="{{ asset('') }}img/in-lazy.gif"
+                            <!-- <img src="{{ asset('') }}img/in-lazy.gif"
                                 data-src="{{ asset('') }}img/in-liquid-slide-1.svg" alt="image-slide" width="652"
-                                height="746" data-uk-img>
+                                height="746" data-uk-img> -->
                         </div>
                     </div>
                 </div>
@@ -205,7 +203,8 @@
                     and more precise decision on CFD currency pairs, stocks, commodities, and more.</p>
             </div>
         </div>
-        <div style="display:none" class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top"
+        <div style="display:none"
+            class="uk-grid-medium uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-match uk-margin-large-top"
             data-aos="fade-up" data-aos-offset="500" data-aos-easing="ease-in-sine" data-uk-grid>
             <!-- Card 1: Premium Economic Calendar -->
             <div>
@@ -253,7 +252,6 @@
             </div>
         </div>
 
-        
         <div class="uk-section uk-preserve-color in-equity-1">
             <div class="uk-container">
                 <div class="uk-grid-match uk-grid-medium uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-bottom"
@@ -274,8 +272,8 @@
                     <div>
                         <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
                             <div class="uk-flex">
-                                <img src="{{ asset('') }}forexdata/home-row5-icon2.svg" alt="Technical Views"
-                                    width="50" height="50" class="uk-margin-bottom">
+                                <img src="{{ asset('') }}forexdata/home-row5-icon2.svg" alt="Technical Views" width="50"
+                                    height="50" class="uk-margin-bottom">
                             </div>
                             <h5 class="uk-margin-remove">Technical Views</h5>
                             <p>Access live trading setups based on pattern recognition and expert analysis.</p>
@@ -290,7 +288,8 @@
                                     width="50" height="50" class="uk-margin-bottom">
                             </div>
                             <h5 class="uk-margin-remove">Financial strength</h5>
-                            <p>Financial strength refers to the robustness and stability of an individual, organization, or institution's financial position.</p>
+                            <p>Financial strength refers to the robustness and stability of an individual, organization,
+                                or institution's financial position.</p>
                             <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
                         </div>
                     </div>
@@ -298,8 +297,8 @@
                     <div>
                         <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
                             <div class="uk-flex">
-                                <img src="{{ asset('') }}forexdata/home-row5-icon4.svg" alt="AI Market Buzz"
-                                    width="50" height="50" class="uk-margin-bottom">
+                                <img src="{{ asset('') }}forexdata/home-row5-icon4.svg" alt="AI Market Buzz" width="50"
+                                    height="50" class="uk-margin-bottom">
                             </div>
                             <h5 class="uk-margin-remove">AI Market Buzz</h5>
                             <p>Gain live market moving insights of over 35,000 tradable assets.</p>
@@ -310,7 +309,6 @@
                 </div>
             </div>
         </div>
-        
 
     </div>
 </div>

@@ -19,3 +19,7 @@
     top: auto !important;
     left: auto !important;
 }
+
+a.uk-button.uk-button-text {
+    color: #99a4ae !important;
+}

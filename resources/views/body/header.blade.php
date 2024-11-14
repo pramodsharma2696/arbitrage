@@ -1,4 +1,13 @@
 <!-- header begin -->
+ <style>
+	@media (max-width: 640px) {
+				.uk-padding-remove-vertical {
+			padding-top: 40px !important;
+			padding-bottom: 40px !important;
+		}
+	}
+	
+ </style>
 <header>
 	<div class="uk-section uk-padding-remove-vertical">
 		<nav class="uk-navbar-container uk-navbar-transparent"
@@ -96,10 +105,13 @@
 				</div>
 				<div class="uk-navbar-right">
 					<div class="uk-navbar-item uk-visible@m in-optional-nav">
-						<!-- <a href="{{ url('login') }}" class="uk-button uk-button-text">Log in<i
+						<a href="{{ url('login') }}" class="uk-button uk-button-text">Open Demo Account <i
 								class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
-						<a href="#" class="uk-button uk-button-primary">Sign up<i
-								class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+						<a href="{{ url('login') }}" class="uk-button uk-button-text">Open Live  Account <i
+								class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+						<a href="{{ url('login') }}" class="uk-button uk-button-text">Log in<i
+								class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+						
 					</div>
 				</div>
 			</div>

@@ -17,10 +17,12 @@
 
     .breathing {
         display: inline-block;
-        background-color: #d4af37;
+        background: linear-gradient(335deg, #e5be4e, #efdd95, #a98726);
         color: #000000;
-        border-radius: 10px;
+        padding: 0px 70px 0px 70px;
+        border-radius: 25px;
         text-align: center;
+        font-size: 18px;
         cursor: pointer;
         transition: transform 0.3s ease;
     }
@@ -89,6 +91,43 @@
         overflow: hidden;
         /* Ensures overflow content is hidden */
     }
+    
+    /* common content css start  */
+    .setImg {
+        width: 181px;
+        margin-top: -74px;
+        margin-bottom: -45px;
+        margin-left: -50px;
+    }
+
+    /* card css */
+    .sec_add_w {
+        padding: 60px 0;
+    }
+
+    @media (max-width: 640px) {
+        .card-image {
+            margin-left: -56px !important;
+        }
+    }
+
+    .card-image {
+        max-width: 230px !important;
+        height: auto;
+        margin-top: -64px;
+        /* margin: 0 auto; */
+        object-fit: contain;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    /* common content css end  */
 </style>
 <link rel="stylesheet" href="{{ asset('') }}teccss/tec-style.css">
 <!-- breadcrumb content begin -->
@@ -118,123 +157,127 @@ with key financial markets at your fingertips.</p>
                 <button type="button" class="uk-button uk-button-primary breathing" id="button-sandp">S&P 500</button>
                 <button type="button" class="uk-button uk-button-primary breathing" id="button-honkong">Hon Kong (HK50)</button> <br />
                 <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-firstGer30">GER30</button>
-                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-secondGer30">GER30</button>
+                <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-secondGer30">AU200</button>
                 <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-dowJones">Dow Jones</button>
                 
             </div>
             <div class="col-lg-6">
 
                 <div class="uk-grid uk-child-width-1-3@m uk-grid-match" uk-grid>
+                   
                     <div>
-                        <img src="{{ asset('') }}images/symbol/23.png" alt="Image 1" id="image-sandp" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/27.png" alt="Image 5" id="image-sandp"  class="breathing-img ">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/24.png" alt="Image 2" id="image-honkong" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/26.png" alt="Image 4" id="image-honkong"  class="breathing-img ">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/25.png" alt="Image 3" id="image-firstGer30" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/24.png" alt="Image 2"  id="image-firstGer30"  class="breathing-img">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/26.png" alt="Image 4" id="image-secondGer30" class="breathing-img m-top">
-                    </div>
-                    <div>
-                        <img src="{{ asset('') }}images/symbol/27.png" alt="Image 5" id="image-dowJones" class="breathing-img m-top">
+                        <img src="{{ asset('') }}images/symbol/25.png" alt="Image 3" id="image-secondGer30" class="breathing-img m-top">
                     </div>
                     
+                    <div>
+                        <img src="{{ asset('') }}images/symbol/23.png" alt="Image 1"  id="image-dowJones" class="breathing-img m-top">
+                    </div>
                 </div>
 
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="sec_add_w" style="display:none">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-4">
-                <div class="designs">
-                    <img src="{{ asset('') }}images/ico1.png">
-                    <span>Most Liquid Market</span>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="designs">
-                    <img src="{{ asset('') }}images/ico2.png">
-                    <span>Long or short, Both Trades</span>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="designs">
-                    <img src="{{ asset('') }}images/ico3.png">
-                    <span>Tight spreads</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="sec_add_w" style="display:none">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-5">
-                <h1 align="left">Why Arbitrage?</h1><br>
-                <img class="res" src="{{ asset('') }}images/Forex-GIF-2-min.gif">
-            </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-6">
-                <br><br><br><br>
-                <!-- <div class="list_add"><img src="{{ asset('') }}images/ico4.png"> Regulated Broker</div> -->
-                <div class="list_add"><img src="{{ asset('') }}images/ico5.png"> Multilingual Support</div>
-                <div class="list_add"><img src="{{ asset('') }}images/ico6.png"> Optimum Client Service</div>
-                <div class="list_add"><img src="{{ asset('') }}images/ico7.png"> Experts in the Industry</div>
-            </div>
-
         </div>
     </div>
 </section>
 
 <section class="sec_add_w">
-    <!-- <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12"><h1 align="center">Get Started in 3 Simple Steps</h1><br><br></div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico8.png">
-                    <span>Login & Open Your Account</span>
-                    <p>Complete the formalities, register & verify your account.</p>
-                 </div>
-                </div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico9.png">
-                    <span>Deposit your Funds</span>
-                    <p>Add the funds in your capacity, get ready for the final stage</p>
-                 </div>
-                </div>
-                <div class="col-lg-4">
-                 <div class="designs">
-                    <img src="{{ asset('') }}images/ico10.png">
-                    <span>Enjoy Trading</span>
-                    <p>Reap the benefits & trade smart to enjoy profits</p>
-                 </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+                <h1 class="mb-5">Why Choose Us?</h1>
+                <!-- <p class="mb-5">Discover the benefits of choosing us for your trading needs.</p> -->
+            </div>
+        </div>
+        <div class="row">
+            <!-- First Row - First Item -->
+            <div class="col-lg-6 col-md-6 mb-4 d-flex align-items-center">
+                <div class="row w-100">
+                    <div class="col-4 text-center">
+                        <img src="{{ asset('') }}images/icons/1.png" alt="Multilingual Support" class="card-image">
+                    </div>
+                    <div class="col-8">
+                        <h5 class="uk-text-warning">Flexible Account Options</h5>
+                        <p>Tailored to meet your trading style and goals, giving you the freedom to trade your
+                            way.</p>
+                    </div>
                 </div>
             </div>
-        </div> -->
+            <!-- First Row - Second Item -->
+            <div class="col-lg-6 col-md-6 mb-4 d-flex align-items-center">
+                <div class="row w-100">
+                    <div class="col-4 text-center">
+                        <img src="{{ asset('') }}images/icons/2.png" alt="Optimum Client Service" class="card-image">
+                    </div>
+                    <div class="col-8">
+                        <h5 class="uk-text-warning">Comprehensive Market Access</h5>
+                        <p>Trade multiple asset classes, from Forex and Equities to Indices and Commodities, all
+                            in one platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Second Row - First Item -->
+            <div class="col-lg-6 col-md-6 mb-4 d-flex align-items-center">
+                <div class="row w-100">
+                    <div class="col-4 text-center">
+                        <img src="{{ asset('') }}images/icons/3.png" alt="Experts in the Industry" class="card-image">
+                    </div>
+                    <div class="col-8">
+                        <h5 class="uk-text-warning">Expertly Curated Experience</h5>
+                        <p>Access premium tools, insights, and resources designed by industry professionals to
+                            enhance your trading journey.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Row - Second Item -->
+            <div class="col-lg-6 col-md-6 mb-4 d-flex align-items-center">
+                <div class="row w-100">
+                    <div class="col-4 text-center">
+                        <img src="{{ asset('') }}images/icons/4.png" alt="Regulated Broker" class="card-image">
+                    </div>
+                    <div class="col-8">
+                        <h5 class="uk-text-warning">Transparent and Secure</h5>
+                        <p>Built on trust, our platform ensures transparent pricing and secure transactions, so
+                            you can trade with confidence.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 mb-4">
+                <a href="#" class="uk-button uk-button-primary breathing mt-2 float-end">Sign Up <i
+                        class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sec_add_w">
 
     <div class="uk-section uk-preserve-color in-equity-1">
         <div class="uk-container">
+            <h3>Step into the Market Effortlessly with <span style="color:#DCBA62">Arbitrage Prime!</span></h3>
             <div class="uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-bottom"
                 data-aos="fade-up" data-aos-duration="3000" data-uk-grid>
                 <!-- card 1 -->
                 <div>
                     <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
                         <div class="uk-flex">
-                            <img src="{{ asset('') }}images/ico8.png" alt="Login & Open Your Account" width="50"
-                                height="50" class="uk-margin-bottom">
+                            <img src="{{ asset('') }}images/icons/5.png" alt="Login & Open Your Account" class="setImg">
                         </div>
-                        <h5 class="uk-margin-remove">Login & Open Your Account</h5>
-                        <p>Complete the formalities, register & verify your account.
-                        </p>
+                        <h5 class="uk-margin-remove">Sign Up & Open Your Account:</h5>
+                        <p>Sign up, complete your profile, and
+                            verify your identity to get started.</p>
                         <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
                     </div>
                 </div>
@@ -242,11 +285,10 @@ with key financial markets at your fingertips.</p>
                 <div>
                     <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
                         <div class="uk-flex">
-                            <img src="{{ asset('') }}images/ico9.png" alt="Deposit your Funds" width="50" height="50"
-                                class="uk-margin-bottom">
+                            <img src="{{ asset('') }}images/icons/6.png" alt="Deposit your Funds" class="setImg">
                         </div>
-                        <h5 class="uk-margin-remove">Deposit your Funds</h5>
-                        <p>Add the funds in your capacity, get ready for the final stage.</p>
+                        <h5 class="uk-margin-remove">Fund Your Account:</h5>
+                        <p>Deposit funds at your convenience and prepare to start trading.</p>
                         <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
                     </div>
                 </div>
@@ -254,11 +296,10 @@ with key financial markets at your fingertips.</p>
                 <div>
                     <div class="uk-card uk-card-body uk-card-muted uk-border-rounded">
                         <div class="uk-flex">
-                            <img src="{{ asset('') }}images/ico10.png" alt="Enjoy Trading" width="50" height="50"
-                                class="uk-margin-bottom">
+                            <img src="{{ asset('') }}images/icons/7.png" alt="Enjoy Trading" class="setImg">
                         </div>
-                        <h5 class="uk-margin-remove">Enjoy Trading</h5>
-                        <p>Reap the benefits & trade smart to enjoy profits.</p>
+                        <h5 class="uk-margin-remove">Start Trading:</h5>
+                        <p>Get access to the platform and trade confidently to pursue your financial goals.</p>
                         <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">More <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
                     </div>
                 </div>
