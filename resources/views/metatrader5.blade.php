@@ -86,10 +86,10 @@
                 <div class="uk-margin-top icon-img">
                     <div class="uk-flex uk-flex-left uk-gap-small">
                         <a href="javascript:void(0);">
-                            <img src="http://arbitrage.test/img/in-app-store.svg" alt="App Store" width="150" height="30" class="apps-icon">
+                            <img src="{{ asset('') }}img/in-app-store.svg" alt="App Store" width="150" height="30" class="apps-icon">
                         </a>
                         <a href="javascript:void(0);">
-                            <img src="http://arbitrage.test/img/in-google-play.svg" alt="Google Play" width="150" height="30" class="apps-icon" style="margin-left: 15px;">
+                            <img src="{{ asset('') }}img/in-google-play.svg" alt="Google Play" width="150" height="30" class="apps-icon" style="margin-left: 15px;">
                         </a>
                     </div>
                 </div>
