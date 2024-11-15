@@ -5,16 +5,29 @@
         #image-euro {
             margin-bottom: -171px;
         }
+        .breathing-img {
+        height:auto !important;
+        }
+        .m-top {
+            margin-top:-180px !important;
+        }
+        .col-lg-6,.col-lg-5 {
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+        }
     }
 
     .uk-card-radius {
         border-radius: 50%;
     }
-
+    .m-top2 {
+        margin-top:-80px;
+    }
     .breathing {
         display: inline-block;
         background: linear-gradient(335deg, #e5be4e, #efdd95, #a98726);
-        padding: 0px 70px 0px 70px;
+        padding: 0px 45px 0px 45px;
         color: #000000;
         border-radius: 25px;
         text-align: center;
@@ -28,7 +41,7 @@
         transition: transform 0.3s ease;
         width: 100%;
         /* Ensures the image fills the width */
-        height: 400px;
+        height:207px;
         /* Ensures the image fills the height */
         object-fit: cover;
         /* Crops the image to fit the container */
@@ -150,7 +163,7 @@
             </div>
             <div class="col-lg-6">
                 <!-- <img class="res" src="{{ asset('') }}images/symbol/9.png"> -->
-                <div class="uk-grid-large uk-child-width-1-2@s uk-grid-match" uk-grid>
+                <div class="uk-grid-small uk-child-width-1-3@s uk-grid-match" uk-grid>
                     <div>
                         <img src="{{ asset('') }}images/symbol/9.png" alt="Image 1" id="image-euro"
                             class="breathing-img">
@@ -161,11 +174,11 @@
                     </div>
                     <div>
                         <img src="{{ asset('') }}images/symbol/12.png" alt="Image 4" id="image-dollor"
-                            class="breathing-img" style="margin-top: -165px;">
+                            class="breathing-img m-top">
                     </div>
                     <div>
                         <img src="{{ asset('') }}images/symbol/10.png" alt="Image 2" id="image-yen"
-                            class="breathing-img" style="margin-top: -165px;">
+                            class="breathing-img m-top">
                     </div>
 
                 </div>

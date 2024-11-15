@@ -54,7 +54,7 @@
 							<div class="uk-width-3-5@m">
 								<div class="uk-text-center in-padding-horizontal@s">
 									<a class="uk-logo" href="index-2.html">
-										<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/user/header-logo.svg" alt="logo" width="146" height="40" data-uk-img>
+										<img src="{{ asset('') }}img/in-lazy.gif" data-src="{{ asset('') }}img/user/logo-darkmode.png" alt="logo" width="146" height="40" data-uk-img>
 									</a>
 									<p class="uk-text-lead uk-margin-small-top uk-margin-medium-bottom">Log into your account</p>
 									<!-- login form begin -->

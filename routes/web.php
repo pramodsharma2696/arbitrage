@@ -28,6 +28,7 @@ Route::controller(HomeController::class)->group(function(){
     Route::get('/conditions', 'conditions')->name('conditions');
     Route::get('/FAQ', 'FAQ')->name('FAQ');
     Route::get('/cryptocurrencies', 'cryptocurrencies')->name('cryptocurrencies');
+    Route::get('/metatrader5', 'Metatrader5')->name('metatrader5');
 
     Route::get('/forex-glossary', 'forexglossary')->name('forexglossary');
     

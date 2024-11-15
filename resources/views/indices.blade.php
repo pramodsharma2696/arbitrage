@@ -3,8 +3,20 @@
 <style>
     @media (max-width: 640px) {
         .m-top {
-            margin-top: 0px !important;
+            margin-top: -220px !important;
         }
+        .breathing-img {
+        height:auto !important;
+        }
+        .m-top-size {
+            margin-top:-220px !important;
+        }
+        .col-lg-6,.col-lg-5 {
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+        }
+       
     }
 
     .m-top {
@@ -19,7 +31,7 @@
         display: inline-block;
         background: linear-gradient(335deg, #e5be4e, #efdd95, #a98726);
         color: #000000;
-        padding: 0px 70px 0px 70px;
+        padding: 0px 45px 0px 45px;
         border-radius: 25px;
         text-align: center;
         font-size: 18px;
@@ -169,10 +181,10 @@ with key financial markets at your fingertips.</p>
                         <img src="{{ asset('') }}images/symbol/27.png" alt="Image 5" id="image-sandp"  class="breathing-img ">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/26.png" alt="Image 4" id="image-honkong"  class="breathing-img ">
+                        <img src="{{ asset('') }}images/symbol/26.png" alt="Image 4" id="image-honkong"  class="breathing-img m-top-size">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/24.png" alt="Image 2"  id="image-firstGer30"  class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/24.png" alt="Image 2"  id="image-firstGer30"  class="breathing-img m-top-size">
                     </div>
                     <div>
                         <img src="{{ asset('') }}images/symbol/25.png" alt="Image 3" id="image-secondGer30" class="breathing-img m-top">

@@ -33,7 +33,7 @@
 	<!-- uikit -->
 	<script src="{{ asset('') }}js/vendors/uikit.min.js"></script>
 	<!-- favicon -->
-	<link rel="shortcut icon" href="{{ asset('') }}img/user/favicon.png">
+	<link rel="shortcut icon" href="{{ asset('') }}img/user/favicon.png" style="width:120px;height:auto">
 	<!-- touch icon -->
 	<link rel="apple-touch-icon-precomposed" href="{{ asset('') }}img/apple-touch-icon.png">
 	

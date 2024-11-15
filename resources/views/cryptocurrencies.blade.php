@@ -3,8 +3,19 @@
 <style>
     @media (max-width: 640px) {
         .m-top {
-        margin-top:0px !important;
-    }
+            margin-top: -220px !important;
+        }
+        .breathing-img {
+        height:auto !important;
+        }
+        .m-top-size {
+            margin-top:-220px !important;
+        }
+        .col-lg-6,.col-lg-5 {
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+        }
     }
     .m-top {
         margin-top:-130px;
@@ -18,7 +29,7 @@
         background: linear-gradient(335deg, #e5be4e, #efdd95, #a98726);
         color: #000000;
         border-radius: 25px;
-        padding: 0px 70px 0px 70px;
+        padding: 0px 45px 0px 45px;
         text-align: center;
         font-size: 18px;
         cursor: pointer;
@@ -136,7 +147,7 @@
 <section class="py-5" id="about_company">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-6"><br><br>
+            <div class="col-lg-6 col-md-12"><br><br>
                 <h1>Cryptocurrencies</h1>
                 <p style="line-height: 1.6;">Explore the dynamic world of cryptocurrencies on our platform.
 Trade top digital assets with access to real-time markets.
@@ -157,11 +168,11 @@ capture opportunities in this evolving asset class.</p>
                     </div>
                     <div>
                         
-                        <img src="{{ asset('') }}images/symbol/21.png" id="image-Cardano"  alt="Image 4" class="breathing-img ">
+                        <img src="{{ asset('') }}images/symbol/21.png" id="image-Cardano"  alt="Image 4" class="breathing-img m-top-size">
                     </div>
                    
                     <div>
-                        <img src="{{ asset('') }}images/symbol/20.png" id="image-Ripple" alt="Image 3" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/20.png" id="image-Ripple" alt="Image 3" class="breathing-img m-top-size">
                     </div>
                     <div>
                     <img src="{{ asset('') }}images/symbol/18.png" id="image-Bitcoin"  alt="Image 1" class="breathing-img m-top">

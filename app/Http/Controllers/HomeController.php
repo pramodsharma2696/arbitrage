@@ -55,4 +55,7 @@ class HomeController extends Controller
     public function cryptocurrencies(){
         return view('cryptocurrencies');
     }
+    public function Metatrader5(){
+        return view('metatrader5');
+    }
 }

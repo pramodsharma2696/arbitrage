@@ -2,21 +2,39 @@
 @section('contents')
 <!-- slideshow content begin -->
 <style>
+
+
     .uk-section {
-    position: initial; /* This ensures that the content remains inside the section */
-    overflow: hidden; /* Hides any overflow if the video goes beyond container bounds */
+        position: initial;
+        /* This ensures that the content remains inside the section */
+        /* overflow: hidden; */
+       
+        /* Hides any overflow if the video goes beyond container bounds */
+    }
+
+    .video-section {
+    position: relative; /* Makes the section the reference point for absolute positioning */
+    overflow: hidden;   /* Ensures the video does not overflow outside the section */
 }
-    /* Style for the video background */
-    .background-video {
-    position: absolute; /* Keep it absolute, but make sure it's correctly positioned */
+
+.video-wrapper {
+    position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Make sure the video covers the container horizontally */
-    height: 100%; /* Make sure the video covers the container vertically */
-    object-fit: cover; /* Ensure the video maintains its aspect ratio while covering the container */
-    z-index: -1; /* Send the video behind other content */
-    pointer-events: none; /* Ensure the video doesn’t capture any mouse events */
-    }
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensures the video stays behind the content */
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the container without stretching */
+}
+
 
     /* Overlay content on top of the video */
     .content-overlay {
@@ -29,26 +47,32 @@
 
     .in-slideshow-gradient {
         position: relative;
-    z-index: 1; /* Keep content above the video */
-    color: #fff; /* White text for better contrast on the video */
+        z-index: 1;
+        /* Keep content above the video */
+        color: #fff;
+        /* White text for better contrast on the video */
     }
 </style>
-<div class="uk-section uk-padding-remove-vertical">
-    <video autoplay muted loop playsinline class="background-video">
-        <source src="{{ asset('') }}video/bg.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<div class="uk-section uk-padding-remove-vertical video-section">
+        <div class="video-wrapper">
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="{{ asset('') }}video/bg.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+       </div>
     <div id="particles-js" class="uk-light in-slideshow uk-background-contain"
         data-src="{{ asset('') }}img/in-equity-decor-1.svg" data-uk-img data-uk-slideshow>
-       
+
         <ul class="uk-slideshow-items">
             <li class="uk-flex uk-flex-middle">
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                        <div class="uk-width-1-2@s in-slide-text" style="background:#000000a1;box-shadow:rgb(7 18 25) 0px 7px 29px 0px;border-radius:10px; padding:20px">
+                        <div class="uk-width-1-2@s in-slide-text"
+                            style="background:#000000a1;box-shadow:rgb(7 18 25) 0px 7px 29px 0px;border-radius:10px; padding:20px">
 
                             <h1 class="uk-heading-small" data-aos="zoom-in-down">Navigate the <span
-                                    class="in-highlight">Global markets</span> with a platform built <span style="color:#DCBA62">for performance.</span>
+                                    class="in-highlight">Global markets</span> with a platform built <span
+                                    style="color:#DCBA62">for performance.</span>
                             </h1>
                             <p class="uk-text-lead uk-visible@m">Get the most accurate market data, alerts, conversions
                                 and tools - all within a platform that adapts to your trading needs.</p>
@@ -67,10 +91,12 @@
             <li class="uk-flex uk-flex-middle ">
                 <div class="uk-container">
                     <div class="uk-grid-large uk-flex-middle" data-uk-grid>
-                        <div class="uk-width-1-2@s in-slide-text" style="background:#000000a1;box-shadow:rgb(7 18 25) 0px 7px 29px 0px;border-radius:10px; padding:20px">
+                        <div class="uk-width-1-2@s in-slide-text"
+                            style="background:#000000a1;box-shadow:rgb(7 18 25) 0px 7px 29px 0px;border-radius:10px; padding:20px">
                             <!-- <p class="in-badge-text uk-text-small uk-margin-remove-bottom uk-visible@m"><span class="uk-label uk-label-success in-label-small">New</span>Trade the markets directly with
                                 leading trading platforms.</p> -->
-                            <h1 class="uk-heading-small" data-aos="zoom-in-down">Make Every Trade Count with <span style="color:#DCBA62">Arbitrage Prime .</span></h1>
+                            <h1 class="uk-heading-small" data-aos="zoom-in-down">Make Every Trade Count with <span
+                                    style="color:#DCBA62">Arbitrage Prime .</span></h1>
                             <p class="uk-text-lead uk-visible@m">Whether you are into Forex, Commodities, Stocks,
                                 Indices or Digital Assets, we’ve got you covered</p>
                             <div class="uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-medium-top uk-visible@s"
@@ -132,64 +158,96 @@
 <!-- slideshow content end -->
 <!-- section content begin -->
 
-<div class="uk-section uk-section-primary uk-preserve-color in-equity-1">
+<div class="uk-section uk-section-primary uk-preserve-color in-equity-1" style="background: url(../images/icons/metatrader/gold-bg.png);">
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1">
-                <h4 data-aos="zoom-in-down">Why choose Forex Trading With Arbitrage</h4>
+                <h4 data-aos="zoom-in-down">Trade Over 1000+ Global Market Assets with Ease</h4>
             </div>
         </div>
-        <div class="uk-grid-match uk-grid-medium uk-child-width-1-4@m uk-child-width-1-2@s uk-margin-bottom"
+        <div class="uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-bottom"
             data-aos="fade-up" data-aos-duration="3000" data-uk-grid>
+            <!-- EUR/USD Card -->
             <div>
                 <div class="uk-card uk-card-body uk-card-default uk-border-rounded">
-                    <div class="uk-flex uk-flex-middle">
-
-                        <h5 class="uk-margin-remove">Various assets</h5>
+                    <div class="uk-flex uk-flex-middle" style="margin-top: -40px;">
+                        <!-- Image for EUR/USD -->
+                        <img src="{{ asset('') }}images/icons/home/6.png" alt="EUR/USD Icon"
+                            style="width: 160px; height: 160px;">
+                        <h5 style="font-size: 20px;margin-left: -25px;">EUR/USD</h5>
                     </div>
-                    <p>Various assets encompass a wide range of financial instruments and investments, including stocks,
-                        bonds, real estate, and commodities.</p>
-                    <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    <p style="margin-top: -25px;">One of the most traded currency pairs in the world, EUR/USD Dollar provides liquidity and tight
+                        spreads, making it an excellent choice for both new and experienced traders.</p>
                 </div>
             </div>
+            <!-- Gold Card -->
             <div>
                 <div class="uk-card uk-card-body uk-card-default uk-border-rounded">
-                    <div class="uk-flex uk-flex-middle">
-
-                        <h5 class="uk-margin-remove">Market analysis</h5>
+                    <div class="uk-flex uk-flex-middle" style="margin-top: -40px;">
+                        <!-- Image for Gold -->
+                        <img src="{{ asset('') }}images/icons/home/9.png" alt="Gold Icon"
+                        style="width: 160px; height: 160px;">
+                        <h5 style="font-size: 20px;margin-left: -25px;">Gold</h5>
                     </div>
-                    <p>Market analysis involves a comprehensive examination of various factors that impact the supply
-                        and demand for goods or services within a specific industry or market.</p>
-                    <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    <p style="margin-top: -25px;">A traditional safehaven asset, XAU/USD (Gold) is a go-to for investors looking to hedge against
+                        market volatility, inflation, or currency fluctuations.</p>
                 </div>
             </div>
-
+            <!-- Bitcoin Card -->
             <div>
                 <div class="uk-card uk-card-body uk-card-default uk-border-rounded">
-                    <div class="uk-flex uk-flex-middle">
-
-                        <h5 class="uk-margin-remove">Enhanced tools</h5>
+                    <div class="uk-flex uk-flex-middle" style="margin-top: -40px;">
+                        <!-- Image for Bitcoin -->
+                        <img src="{{ asset('') }}images/icons/home/7.png" alt="Bitcoin Icon"
+                        style="width: 160px; height: 160px;">
+                        <h5 style="font-size: 20px;margin-left: -25px;">Bitcoin</h5>
                     </div>
-                    <p>Enhanced tools refer to advanced and improved instruments or software applications that offer
-                        greater functionality, efficiency, and capabilities compared to their standard counterparts.</p>
-                    <!-- <a href="#" class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                    <p style="margin-top: -25px;">The pioneer of cryptocurrencies, Bitcoin is known for its volatility and potential for high
+                        returns, offering unique opportunities for digital asset traders.</p>
                 </div>
             </div>
+            <!-- Crude Oil Card -->
             <div>
                 <div class="uk-card uk-card-body uk-card-default uk-border-rounded">
-                    <div class="uk-flex uk-flex-middle">
-                        <span class="in-product-name"><i class="fas fa-ellipsis-h fa-xs"></i></span>
-                        <h5 class="uk-margin-remove">More products</h5>
+                    <div class="uk-flex uk-flex-middle" style="margin-top: -40px;">
+                        <!-- Image for Crude Oil -->
+                        <img src="{{ asset('') }}images/icons/home/8.png" alt="Crude Oil Icon"
+                        style="width: 160px; height: 160px;">
+                        <h5 style="font-size: 20px;margin-left: -25px;">Crude Oil</h5>
                     </div>
-                    <p>Explore the full range of cash and leveraged products</p>
-                    <a href="{{ url('forex') }}"
+                    <p style="margin-top: -25px;">Oil is essential to the global economy, and trading in crude oil provides exposure to trends in
+                        energy markets, making it popular among commodity traders.</p>
+                    <!-- <a href="{{ url('forex') }}"
                         class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i
-                            class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+                            class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
+                </div>
+            </div>
+            <!-- USD/JPY Card -->
+            <div>
+                <div class="uk-card uk-card-body uk-card-default uk-border-rounded">
+                    <div class="uk-flex uk-flex-middle" style="margin-top: -40px;">
+                        <!-- Image for Crude Oil -->
+                        <img src="{{ asset('') }}images/icons/home/10.png" alt="Crude Oil Icon" class="uk-margin-right"
+                        style="width: 160px; height: 160px;">
+                        <h5 style="font-size: 20px;margin-left: -25px;">USD/JPY</h5>
+                    </div>
+                    <p style="margin-top: -25px;">Another highly liquid
+                        pair, USD/JPY reflects
+                        the dynamic economic
+                        relationship between
+                        the U.S. & Japan,
+                        offering insights &
+                        opportunities in Forex
+                        & interest rate markets.</p>
+                    <!-- <a href="{{ url('forex') }}"
+                        class="uk-button uk-button-text uk-float-right uk-position-bottom-right">Explore<i
+                            class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> -->
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <!-- section content end -->
 <!-- section content begin -->
 <div class="uk-section uk-background-contain uk-background-center" data-src="{{ asset('') }}img/in-equity-2-bg.png"
@@ -512,7 +570,7 @@
         </div>
     </div>
 </div> -->
-<div class="uk-section uk-preserve-color uk-padding-remove uk-margin-remove uk-height-viewport uk-background-white">
+<div class="uk-section uk-preserve-color uk-padding-remove uk-margin-remove uk-height-viewport uk-background-white" style="display:none">
     <div class="uk-container-expand uk-margin-remove">
         <div class="uk-grid-collapse uk-flex-middle" data-uk-grid>
             <!-- Left Side: Video (60% width) -->

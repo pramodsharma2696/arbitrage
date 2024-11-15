@@ -2,8 +2,22 @@
 @section('contents')
 <style>
     @media (max-width: 640px) {
+        .breathing-img {
+        height:auto !important;
+        }
+        .m-top-size {
+            margin-top:-200px !important;
+        }
         .m-top {
-            margin-top: 0px !important;
+            margin-top:-200px !important;
+        }
+        #button-microsoft{
+            margin-left: -12px !important;
+        }
+        .col-lg-6,.col-lg-5 {
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
         }
     }
 
@@ -20,7 +34,7 @@
         background: linear-gradient(335deg, #e5be4e, #efdd95, #a98726);
         color: #000000;
         border-radius: 25px;
-        padding: 0px 70px 0px 70px;
+        padding: 0px 45px 0px 45px;
         text-align: center;
         font-size: 18px;
         cursor: pointer;
@@ -124,6 +138,9 @@
     .align-items-center {
         align-items: center;
     }
+    #button-microsoft{
+        margin-left: -34px;
+    }
 
     /* common content css end  */
 </style>
@@ -145,7 +162,7 @@
 <section class="py-5" id="about_company">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7"><br><br>
+            <div class="col-lg-5"><br><br>
                 <h1>Equities</h1>
                 <p style="line-height: 1.6;">Trade a diverse range of global equities on our platform, with
 access to top stocks from leading technology, financial, and
@@ -161,20 +178,20 @@ portfolio with some of the world's most sought-after equities.</p>
                 <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-nvidia">Nvidia</button>
                 <button type="button" class="uk-button uk-button-primary breathing mt-2" id="button-google">Google</button>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-7">
 
-                <div class="uk-grid uk-child-width-1-3@m uk-grid-match" uk-grid>
+                <div class="uk-grid uk-child-width-1-4@m uk-grid-match" uk-grid>
                     <div>
                         <img src="{{ asset('') }}images/symbol/6.png" alt="Image 1" id="image-apple" class="breathing-img">
                     </div>
                     <div>
-                    <img src="{{ asset('') }}images/symbol/3.png" alt="Image 6" id="image-meta" class="breathing-img">
+                    <img src="{{ asset('') }}images/symbol/3.png" alt="Image 6" id="image-meta" class="breathing-img m-top-size">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/7.png" alt="Image 8" id="image-nike" class="breathing-img">
+                        <img src="{{ asset('') }}images/symbol/7.png" alt="Image 8" id="image-nike" class="breathing-img m-top-size">
                     </div>
                     <div>
-                        <img src="{{ asset('') }}images/symbol/4.png" alt="Image 4" id="image-microsoft" class="breathing-img m-top">
+                        <img src="{{ asset('') }}images/symbol/4.png" alt="Image 4" id="image-microsoft" class="breathing-img m-top-size">
                     </div>
                     <div>
                         
