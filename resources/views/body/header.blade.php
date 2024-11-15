@@ -3,14 +3,14 @@
 	@media (max-width: 640px) {
 		.uk-padding-remove-vertical {
 			padding-top: 40px !important;
-			padding-bottom: 40px !important;
+			/* padding-bottom: 40px !important; */
 			margin-bottom: -31px;
 		}
 
-		.in-equity-breadcrumb .uk-breadcrumb {
+		/* .in-equity-breadcrumb .uk-breadcrumb {
 			padding-top: 0px;
 			padding-bottom: 0px;
-		}
+		} */
 
 		.uk-navbar-dropdown {
 			height: 450px;
@@ -128,9 +128,9 @@
 						</li>
 						<li><a href="{{ url('contact-us') }}">Contact</a></li>
 						<li><a href="{{ url('FAQ') }}">FAQ</a></li>
-						<li class="take-right"><a href="{{ url('login') }}" class="uk-button uk-button-text">Open Demo Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
-						<li><a href="{{ url('login') }}" class="uk-button uk-button-text">Open Live Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
-						<li><a href="{{ url('login') }}" class="uk-button uk-button-text">Log in<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li class="take-right"><a href="{{ url('login') }}">Open Demo Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li><a href="{{ url('login') }}">Open Live Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li><a href="{{ url('login') }}">Log in<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
 					</ul>
 				</div>
 				<div class="uk-navbar-right">

@@ -278,12 +278,7 @@ portfolio with some of the world's most sought-after equities.</p>
 
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12 col-md-12 mb-4">
-                <a href="#" class="uk-button uk-button-primary breathing mt-2 float-end">Sign Up <i
-                        class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
-            </div>
-        </div>
+       
     </div>
 </section>
 
@@ -330,6 +325,12 @@ portfolio with some of the world's most sought-after equities.</p>
                 </div>
 
             </div>
+            <div class="row">
+            <div class="col-lg-12 col-md-12 mb-4">
+                <a href="#" class="uk-button uk-button-primary breathing mt-2 float-end">Sign Up <i
+                        class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+            </div>
+        </div>
         </div>
     </div>
 </section>

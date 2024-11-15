@@ -2465,7 +2465,7 @@ select.uk-form-width-xsmall {
 /* Desktop and bigger */
 @media (min-width: 960px) {
   .uk-section {
-    padding-top: 45px;
+    padding-top:1px;
     padding-bottom: 45px;
   }
 }
@@ -5437,9 +5437,12 @@ ul.uk-nav-sub {
 }
 
 .uk-nav-default .uk-nav-sub a {
-  color: #bfbfbf;
+  color: #FFFFFF;
+  /* color: #bfbfbf; */
 }
-
+.uk-nav-default .uk-nav-sub b {
+  color: #000;
+}
 .uk-nav-default .uk-nav-sub a:hover {
   color: #fff;
 }
@@ -5766,7 +5769,7 @@ ul.uk-nav-sub {
  * Nav items
  */
 .uk-navbar-nav > li > a {
-  padding: 0 18px;
+  padding: 0 16px;
   color: #a9afba;
 }
 
@@ -5780,6 +5783,10 @@ ul.uk-nav-sub {
 }
 
 /* OnClick */
+.uk-navbar-nav > li > a:hover {
+  color: #fff;
+  font-weight: 500 !important;
+}
 .uk-navbar-nav > li > a:active {
   color: #fff;
 }
@@ -5866,7 +5873,8 @@ ul.uk-nav-sub {
   width: 200px;
   /* 2 */
   padding: 15px;
-  background: #fff;
+  background: #fac468;
+  /* background: #fff; */
   color: #707070;
   font-size: 0.875rem;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
@@ -5978,7 +5986,9 @@ ul.uk-nav-sub {
 
 /* Hover */
 .uk-navbar-dropdown-nav > li > a:hover {
-  color: #707070;
+  color: #FFFFFF;
+  /* color: #707070; */
+  font-weight: 600;
 }
 
 /* Active */
@@ -6715,7 +6725,8 @@ ul.uk-nav-sub {
   min-width: 200px;
   /* 3 */
   padding: 15px;
-  background: #F8F8F8;
+  background: #fac468;
+  /* background: #F8F8F8; */
   color: #707070;
 }
 
