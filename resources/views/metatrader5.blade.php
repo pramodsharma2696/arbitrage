@@ -9,6 +9,7 @@
     .apps-icon {
         width: 165px !important;
         height: 50px !important;
+        margin-top: 125px;
     }
 
     .setImg {
@@ -89,6 +90,24 @@
         .card-image {
             margin-left: -56px !important;
         }
+
+        .setSize13{
+            margin-left: 14px !important;
+            width: 100% !important;
+            margin-top: 20px !important;
+            margin-bottom: -80px;
+        }
+        .setSize12{
+            margin-left: 9px !important;
+            width: 100% !important;
+            margin-bottom: 44px !important;
+        }
+        .apps-icon {
+            width: 142px !important;
+            height: 50px !important;
+            margin-top: 41px;
+            margin-left: 20px;
+        }
     }
 
     .card-image {
@@ -106,7 +125,17 @@
     .align-items-center {
         align-items: center;
     }
-
+    .setSize13{
+        padding: 100px;
+        margin-left: 68px;
+        width: 85%;
+        margin-top: -50px;
+    }
+    .setSize12{
+        padding: 100px;
+        margin-left: 139px;
+        width: 85%;
+    }
     /* common content css end  */
 </style>
 <link rel="stylesheet" href="{{ asset('') }}teccss/tec-style.css">
@@ -152,14 +181,14 @@
         <!-- card 1 -->
         <div class="uk-width-1-2@m uk-width-1-1 p-0 m-btm">
             <img src="{{ asset('') }}images/icons/metatrader/12.png" alt="Premium Economic Calendar"
-                class="uk-width-1-1">
+                class="uk-width-1-1 setSize12">
         </div>
         <!-- card 2 -->
         <div class="uk-width-1-2@m uk-width-1-1 p-0">
             <!-- Use a container to wrap the image and buttons -->
             <div>
                 <img src="{{ asset('') }}images/icons/metatrader/13.png" alt="Technical Views"
-                    class="uk-width-1-1 uk-margin-bottom">
+                    class="uk-width-1-1 uk-margin-bottom setSize13">
                 <div class="uk-margin-top icon-img">
                     <div class="uk-flex uk-flex-left uk-gap-small">
                         <a href="javascript:void(0);">
