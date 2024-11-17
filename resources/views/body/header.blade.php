@@ -2,9 +2,9 @@
 <style>
 	@media (max-width: 640px) {
 		.uk-padding-remove-vertical {
-			padding-top: 40px !important;
+			/* padding-top: 40px !important; */
 			/* padding-bottom: 40px !important; */
-			margin-bottom: -31px;
+			/* margin-bottom: -31px; */
 		}
 
 		/* .in-equity-breadcrumb .uk-breadcrumb {
