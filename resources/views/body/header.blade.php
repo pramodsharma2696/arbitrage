@@ -128,9 +128,9 @@
 						</li>
 						<li><a href="{{ url('contact-us') }}">Contact</a></li>
 						<li><a href="{{ url('FAQ') }}">FAQ</a></li>
-						<li class="take-right"><a href="{{ url('login') }}">Open Demo Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
-						<li><a href="{{ url('login') }}">Open Live Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
-						<li><a href="{{ url('login') }}">Log in<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li class="take-right"><a href="https://client.arbitrageprime.com/register">Open Demo Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li><a href="https://client.arbitrageprime.com/register">Open Live Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li><a href="https://client.arbitrageprime.com/login">Log in<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
 					</ul>
 				</div>
 				<div class="uk-navbar-right">
