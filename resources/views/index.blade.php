@@ -162,7 +162,7 @@
     <div class="uk-container">
         <div class="uk-grid">
             <div class="uk-width-1-1">
-                <h4 data-aos="zoom-in-down">Trade Over 1000+ Global Market Assets with Ease</h4>
+                <h4 data-aos="zoom-in-down" style="margin-top:35px;">Trade Over 1000+ Global Market Assets with Ease</h4>
             </div>
         </div>
         <div class="uk-grid-match uk-grid-medium uk-child-width-1-3@m uk-child-width-1-2@s uk-margin-bottom"
