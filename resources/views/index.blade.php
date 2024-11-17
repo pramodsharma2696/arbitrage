@@ -485,7 +485,7 @@
                     <li>How to Manage Risk</li>
                     <li>Trading Psychology</li>
                 </ul>
-                <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-small-top" href="#">Open demo
+                <a class="uk-button uk-button-secondary uk-border-rounded uk-margin-small-top" href="https://client.arbitrageprime.com/register">Open demo
                     account<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
             </div>
         </div>
@@ -598,12 +598,12 @@
                     <!-- App Download Buttons -->
                     <div class="uk-margin-top uk-flex uk-flex-middle">
                         <div class="uk-margin-small-right">
-                            <a href="javascript:void(0);">
+                            <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ArbitragePrime-Server">
                                 <img src="{{ asset('') }}img/in-app-store.svg" alt="App Store" width="150" height="30">
                             </a>
                         </div>
                         <div>
-                            <a href="javascript:void(0);">
+                            <a href=" https://download.mql5.com/cdn/mobile/mt5/android?server=ArbitragePrime-Server">
                                 <img src="{{ asset('') }}img/in-google-play.svg" alt="Google Play" width="150"
                                     height="30">
                             </a>

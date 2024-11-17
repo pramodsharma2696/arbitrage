@@ -191,11 +191,11 @@
                     class="uk-width-1-1 uk-margin-bottom setSize13">
                 <div class="uk-margin-top icon-img">
                     <div class="uk-flex uk-flex-left uk-gap-small">
-                        <a href="javascript:void(0);">
+                        <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=ArbitragePrime-Server">
                             <img src="{{ asset('') }}img/in-app-store.svg" alt="App Store" width="150" height="30"
                                 class="apps-icon">
                         </a>
-                        <a href="javascript:void(0);">
+                        <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=ArbitragePrime-Server">
                             <img src="{{ asset('') }}img/in-google-play.svg" alt="Google Play" width="150" height="30"
                                 class="apps-icon" style="margin-left: 15px;">
                         </a>
@@ -416,7 +416,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-md-12 mb-4">
-                    <a href="#" class="uk-button uk-button-primary breathing mt-2 float-end">Sign Up <i
+                    <a href="https://client.arbitrageprime.com/register" class="uk-button uk-button-primary breathing mt-2 float-end">Sign Up <i
                             class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
                 </div>
             </div>
