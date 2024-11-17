@@ -18,7 +18,7 @@
 		<div class="uk-grid">
 			<div class="uk-width-1-1">
 				<ul class="uk-breadcrumb">
-					<li><a href="#">Contact</a></li>
+					<li><a href="#">Contact1</a></li>
 				</ul>
 			</div>
 		</div>
