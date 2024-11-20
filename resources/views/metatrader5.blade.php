@@ -136,6 +136,9 @@
         margin-left: 139px;
         width: 85%;
     }
+    .img-fluid{
+        margin-left: -34px;
+    }
     /* common content css end  */
 </style>
 <link rel="stylesheet" href="{{ asset('') }}teccss/tec-style.css">
@@ -251,7 +254,7 @@
                     <img src="{{ asset('') }}images/icons/metatrader/17.png" alt="Fast Trade Execution"
                         class="img-fluid">
                     <div class="card-body">
-                        <h5 class="card-title">Fast Trade Execution</h5>
+                        <h5 class="card-title">Expert Advisors (EA)</h5>
                     </div>
                 </div>
             </div>
