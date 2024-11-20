@@ -327,7 +327,7 @@ portfolio with some of the world's most sought-after equities.</p>
             </div>
             <div class="row">
             <div class="col-lg-12 col-md-12 mb-4">
-                <a href="https://client.arbitrageprime.com/register" class="uk-button uk-button-primary breathing mt-2 float-end">Sign Up <i
+                <a href="https://client.arbitrageprime.com/register" target="_blank" class="uk-button uk-button-primary breathing mt-2 float-end">Sign Up <i
                         class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
             </div>
         </div>
