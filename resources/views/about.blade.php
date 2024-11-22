@@ -92,7 +92,7 @@
             <div class="col-lg-6">
                 <!-- <h2>Smoothening the process of trading</h2> -->
                 <h2>About Arbitrage Prime</h2>
-                <p>Arbitrage Prime Limited, based in Dubai and globally recognized, empowers traders with
+                <p>Arbitrage Prime Limited, based in St. Lucia and globally recognized, empowers traders with
                     secure, user-friendly trading solutions. We prioritize timely, profitable results, built on the
                     pillars
                     of loyalty, transparency, and consistency to ensure premium client service worldwide.
