@@ -102,7 +102,7 @@
 
     @media (max-width: 640px) {
         .card-image {
-            margin-top: 26px !important;
+            margin-top: -80px !important;
             margin-left: -74px !important;
         }
 

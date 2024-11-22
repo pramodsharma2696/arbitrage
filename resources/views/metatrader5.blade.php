@@ -108,6 +108,9 @@
             margin-top: 41px;
             margin-left: 20px;
         }
+        .img-fluid {
+            margin-left: -9px !important;
+        }
     }
 
     .card-image {
