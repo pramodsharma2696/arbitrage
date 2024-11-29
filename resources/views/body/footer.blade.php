@@ -140,13 +140,14 @@
             <div class="uk-container">
                 <div class="uk-grid uk-flex uk-flex-middle">
                     <div class="uk-width-2-3@m uk-text-small">
-                        <ul class="uk-subnav uk-subnav-divider uk-visible@s" data-uk-margin="" style="display: none;">
-                            <li><a href="#">Risk disclosure</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                            <li><a href="#">Return policy</a></li>
-                            <li><a href="#">Customer Agreement</a></li>
-                            <li><a href="#">AML policy</a></li>
-                        </ul>
+                    <ul class="uk-subnav uk-subnav-divider uk-visible@s" data-uk-margin="">
+                        <li><a href="{{ asset('') }}pdf/risk-disclosure.pdf" target="_blank">Risk disclosure</a></li>
+                        <li><a href="{{ asset('') }}pdf/privacy-policy.pdf" target="_blank">Privacy policy</a></li>
+                        <!-- <li><a href="/path-to-return-policy.pdf" target="_blank">Return policy</a></li> -->
+                        <!-- <li><a href="/path-to-customer-agreement.pdf" target="_blank">Customer Agreement</a></li> -->
+                        <li><a href="{{ asset('') }}pdf/aml-policy.pdf" target="_blank">AML policy</a></li>
+                    </ul>
+
                         <p class="copyright-text">©2024 Arbitrage Prime Limited. All Rights Reserved.</p>
                     </div>
                 </div>
