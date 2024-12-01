@@ -176,7 +176,7 @@
 
             </div>
             <div class="col-lg-6">
-                <img class="res" src="{{ asset('') }}images/icons/metatrader/elements.svg" style="width: 570px;height: auto;margin-top: -62px;">
+                <img class="res" src="{{ asset('') }}images/icons/metatrader/metatrader.svg" style="width: 570px;height: auto;margin-top: -62px;">
                 <!-- <img class="res" src="{{ asset('') }}images/icons/metatrader/11.png" style="width: 570px;height: auto;margin-top: -62px;"> -->
             </div>
         </div>
