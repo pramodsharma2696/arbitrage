@@ -130,7 +130,8 @@
 						<li><a href="{{ url('FAQ') }}">FAQ</a></li>
 						<li class="take-right"><a href="https://client.arbitrageprime.com/register" target="_blank">Open Demo Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
 						<li><a href="https://client.arbitrageprime.com/register" target="_blank">Open Live Account <i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
-						<li><a href="https://client.arbitrageprime.com/login" target="_blank">Log in<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li><a href="https://client.arbitrageprime.com/login" target="_blank">Client Login<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
+						<li><a href=" https://client.arbitrageprime.com/login?ibLogin=true" target="_blank">IB Login<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a></li>
 					</ul>
 				</div>
 				<div class="uk-navbar-right">
